@@ -1,4 +1,4 @@
-> **Language:** English (this page) · [中文](../zh-CN/04-ttg-v9.md)
+> **Language:** English (this page) | [ZH](../zh-CN/04-ttg-v9.md)
 
 # TTG V9
 

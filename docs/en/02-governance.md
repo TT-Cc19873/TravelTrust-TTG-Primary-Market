@@ -1,4 +1,4 @@
-> **Language:** English (this page) · [中文](../zh-CN/02-governance.md)
+> **Language:** English (this page) | [ZH](../zh-CN/02-governance.md)
 
 # Governance
 

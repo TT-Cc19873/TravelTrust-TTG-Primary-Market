@@ -1,4 +1,4 @@
-> **Language:** English (this page) · [中文](../zh-CN/07-security.md)
+> **Language:** English (this page) | [ZH](../zh-CN/07-security.md)
 
 # Security
 

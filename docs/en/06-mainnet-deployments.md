@@ -1,4 +1,4 @@
-> **Language:** English (this page) · [中文](../zh-CN/06-mainnet-deployments.md)
+> **Language:** English (this page) | [ZH](../zh-CN/06-mainnet-deployments.md)
 
 # Mainnet Deployments
 

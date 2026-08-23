@@ -21,6 +21,7 @@
 - [平台格式合规对照](PLATFORM-FORMAT-COMPLIANCE.md)
 - [视频与媒体说明](VIDEO-MEDIA-GUIDE.md)
 - [PDF 包](assets/pdf/)（One Pager + Pitch 大纲）
+- [发布审核报告](PUBLISH-AUDIT-REPORT.md)
 - [语言规范](LANGUAGE-POLICY.md)
 - [同步协议 SYNC_PROTOCOL](SYNC_PROTOCOL.md)
 

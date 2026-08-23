@@ -1,4 +1,4 @@
-> **Language:** English (this page) · [中文](../zh-CN/01-primary-market.md)
+> **Language:** English (this page) | [ZH](../zh-CN/01-primary-market.md)
 
 # Primary Market
 

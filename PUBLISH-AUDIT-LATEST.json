@@ -1,0 +1,45 @@
+{
+  "stamp": "TTG_PRIMARY_MARKET_PUBLISH_AUDIT",
+  "at_utc": "2026-08-23T06:15:28Z",
+  "verdict": "STOP_NOT_PUBLISH_READY",
+  "publishable_external_send": false,
+  "note": "PASS_DRAFT_INTERNAL_ONLY = internal/GitHub draft OK; NOT launchpad/CEX submission ready",
+  "finding_count": 7,
+  "findings": [
+    {
+      "severity": "P1",
+      "area": "md",
+      "issue": "docs\\en\\00-START-HERE.md: Chinese in English doc"
+    },
+    {
+      "severity": "P1",
+      "area": "md",
+      "issue": "docs\\en\\08-governance-boundary.md: Chinese in English doc"
+    },
+    {
+      "severity": "P1",
+      "area": "primary_market",
+      "issue": "M-01 Etherscan: gap — team links + web form submit"
+    },
+    {
+      "severity": "P1",
+      "area": "primary_market",
+      "issue": "M-03 Website: gap — HTML publish"
+    },
+    {
+      "severity": "P1",
+      "area": "primary_market",
+      "issue": "M-30 Product BD: gap — 90s product demo MP4"
+    },
+    {
+      "severity": "P1",
+      "area": "primary_market",
+      "issue": "M-30 Product BD: gap — visual Pitch Deck PDF (not outline)"
+    },
+    {
+      "severity": "P0",
+      "area": "publish",
+      "issue": "team template still MISSING_OWNER_INPUT — blocks external send"
+    }
+  ]
+}

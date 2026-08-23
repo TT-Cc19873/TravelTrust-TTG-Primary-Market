@@ -2,7 +2,7 @@
 
 **STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**Language:** English (this page) · [中文](../zh-CN/18-project-intro.md)
+**Language:** English (this page) | [ZH](../zh-CN/18-project-intro.md)
 
 ---
 

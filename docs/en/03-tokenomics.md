@@ -1,4 +1,4 @@
-> **Language:** English (this page) · [中文](../zh-CN/03-tokenomics.md)
+> **Language:** English (this page) | [ZH](../zh-CN/03-tokenomics.md)
 
 # Tokenomics
 

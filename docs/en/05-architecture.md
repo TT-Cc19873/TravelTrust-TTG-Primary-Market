@@ -1,4 +1,4 @@
-> **Language:** English (this page) · [中文](../zh-CN/05-architecture.md)
+> **Language:** English (this page) | [ZH](../zh-CN/05-architecture.md)
 
 # Architecture
 
