@@ -19,6 +19,8 @@
 - [从这里开始（中文）](docs/zh-CN/00-START-HERE.md)
 - [Start here (English)](docs/en/00-START-HERE.md)
 - [平台格式合规对照](PLATFORM-FORMAT-COMPLIANCE.md)
+- [视频与媒体说明](VIDEO-MEDIA-GUIDE.md)
+- [PDF 包](assets/pdf/)（One Pager + Pitch 大纲）
 - [语言规范](LANGUAGE-POLICY.md)
 - [同步协议 SYNC_PROTOCOL](SYNC_PROTOCOL.md)
 

@@ -28,8 +28,9 @@
 | Markdown（`.md`） | ✅ 全部文档 | — |
 | JSON（地址、Etherscan 草稿） | ✅ `assets/` | — |
 | SVG/PNG Logo | ✅ `assets/brand/` | — |
-| PDF One Pager / Pitch Deck | — | ❌ Owner 待做 |
-| MP4 Demo | — | ❌ Owner 待录 |
+| PDF One Pager / Pitch Deck | ✅ `assets/pdf/` 文字版 | ❌ 视觉设计终稿 Deck |
+| MP4 角色宣传片（6 条） | ✅ 主仓库 LFS（见 VIDEO-MEDIA-GUIDE） | ❌ 未上传本卫星仓（体积） |
+| MP4 标准产品 Demo ~90s | — | ❌ 待按 SCREEN-RECORDING-BRIEF 录屏 |
 | 平台专用表格/Typeform 导出 | — | ❌ 且多数平台 N/A |
 
 ### 语言规范
@@ -46,7 +47,7 @@
 | **M-01 Etherscan** | PRIMARY | Web form + live 32×32 logo URL + EN description | `19-etherscan-pack` + JSON + SVG | **Draft ready** · not submitted · team links missing |
 | **M-02 GitHub Official** | PRIMARY | Markdown tree | `01–07` from github-official | **Format OK** · Wave2 after Reality |
 | **M-03 Website** | PRIMARY | HTML pages (not this repo) | Markdown drafts only | **Content ref** · needs FE publish |
-| **M-30 Product BD** | PRODUCT | PDF/PPT one-pager + demo video | MD only | **Format gap** · no visual deck |
+| **M-30 Product BD** | PRODUCT | PDF/PPT one-pager + demo video | MD + `assets/pdf/` text PDFs · role promos as supplement | **Partial** · no visual deck · no canonical 90s demo |
 | **CoinList / CEX Launchpads** | N/A | Legal, KYC, audit PDF, data room | Not prepared | **NOT_APPLICABLE** |
 | **Fjord** | Deferred | On-chain sale creation | Not prepared for Fjord model | **Future workstream** |
 
