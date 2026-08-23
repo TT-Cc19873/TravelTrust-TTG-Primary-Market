@@ -1,37 +1,27 @@
 # One Pager
 
-**语言 / Language:** [English](../en/15-one-pager.md) · 中文（本页）
+**状态：** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**状态 STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
+**语言：** 中文（本页） · [English](../en/15-one-pager.md)
 
 ---
 
-# TravelTrust · One Pager (V9 Waiting Window Edition)
+## 一句话
 
-**STATUS:** `READY_NOT_PUBLISHED` · **Edition:** V9 · 2026-08-23
-**`TT_PRODUCTION_GO`:** NO_GO · **Mainnet:** `DEPLOYED_PENDING_CUTOVER`
+TravelTrust 是基于信任的旅游商业协议，整合市场、链上托管、费用路由、治理与社区入驻。
 
-## One sentence
+## 是什么
 
-TravelTrust is a trust-based travel commerce protocol combining marketplace, on-chain escrow, fee routing, governance, and community onboarding.
+- 旅行交易产品+协议：托管、争议、信誉
+- TTG：创世 25T · NO-MINT · 治理/预算资产 — **非**默认订单结算（USDC 是）
 
-## What it is
+## 阶段（诚实）
 
-- Product + protocol for travel transactions with escrow, disputes, and reputation
-- TTG: 25T genesis, NO-MINT, governance/budget asset — **not** default order settlement (USDC is)
+- 主网 Phase1 已部署；外围治理 **cutover 待完成**（48h Timelock 迁移窗）
+- 官网：OPS-2026.08.20-v9 — **≠** Production GO
 
-## Stage (honest)
-
-- Mainnet Phase1 deployed; periphery governance **cutover pending** (48h Timelock migration window)
-- Official website: OPS-2026.08.20-v9 pin — **≠** Production GO
-
-## Contact
+## 联系
 
 `traveltrust.ir@gmail.com` · `https://www.web3-ttg.com`
 
-**Not an offer to sell securities or tokens.**
-
-
----
-
-> 英文母版见 [English](../en/15-one-pager.md)。本页为等待窗对外材料副本，非证券要约。
+**非公售证券或代币要约。**

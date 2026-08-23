@@ -18,6 +18,8 @@ Public materials for the **TTG governance token** on-chain primary market (Norm 
 
 - [Start here (English)](docs/en/00-START-HERE.md)
 - [从这里开始（中文）](docs/zh-CN/00-START-HERE.md)
+- [Platform format compliance](PLATFORM-FORMAT-COMPLIANCE.md)
+- [Language policy](LANGUAGE-POLICY.md)
 - [Sync protocol](SYNC_PROTOCOL.md)
 
 ## Document matrix

@@ -1,3 +1,5 @@
+> **Language:** English (this page) · [中文](../zh-CN/03-tokenomics.md)
+
 # Tokenomics
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  

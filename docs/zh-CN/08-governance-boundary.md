@@ -1,41 +1,30 @@
 # 治理币与资金池边界
 
-**语言 / Language:** [English](../en/08-governance-boundary.md) · 中文（本页）
+**状态：** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**状态 STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
+**语言：** 中文（本页） · [English](../en/08-governance-boundary.md)
 
 ---
 
-# TTG · Governance · Country Pool Boundary
+## TTG 是什么
 
-**STATUS:** `READY_NOT_PUBLISHED`
+- 治理与预算程序资产（创世 25T · 不可增发 NO-MINT）
+- **不是**旅行订单默认结算币（订单默认 **USDC**）
 
-## TTG is
+## 国家资金池 / FeeRouter
 
-- Governance + budget program asset (25T genesis, NO-MINT)
-- Not travel order settlement (USDC default)
+- 平台费 5%（500 bps）— 仅治理可改
+- 有活跃主理人：平台费的 45% 至主理人钱包；55% 至 NEW ProjectPool
+- 无主理人：100% 至 NEW ProjectPool
+- 公售 USDC → NEW ProjectPool（**永不**进入 Legacy P4Cap）
 
-## Country Pool / FeeRouter
+## 治理
 
-- Platform fee 5% (500 bps) — governance only to change
-- Active steward: 45% of platform fee to steward wallet; 55% to NEW ProjectPool
-- No steward: 100% to NEW ProjectPool
-- Public sale USDC → NEW ProjectPool (never Legacy P4Cap)
+- Governor → SoloTimelock → 定时操作
+- Phase1：OLD 48h Timelock 向 NEW 12h Timelock 迁移权限（PATH_A）
 
-## Governance
+## 未宣称
 
-- Governor → SoloTimelock → scheduled operations
-- Phase1: OLD 48h TL migrating authority to NEW 12h TL (PATH_A)
-
-## Not claimed
-
-- RegionVault snapshot/claim end-state (83 target — not Official LIVE)
+- RegionVault 快照/领取终局（83 目标 — 非 Official LIVE）
 - Production GO
-- Exchange listings
-
-SSOT: docs/spec/83-区域治理与收益分配-协议白皮书.md · docs/github-official/en/CountryFeeRouter.md
-
-
----
-
-> 英文母版见 [English](../en/08-governance-boundary.md)。本页为等待窗对外材料副本，非证券要约。
+- 交易所上币

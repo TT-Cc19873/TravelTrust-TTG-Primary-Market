@@ -1,95 +1,27 @@
-# 团队介绍
+# 团队介绍（5 人模板）
 
-**语言 / Language:** [English](../en/14-team.md) · 中文（本页）
+**状态：** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**状态 STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
-
----
-
-# TravelTrust · 5-Person Team Introduction Template
-
-**STATUS:** `READY_NOT_PUBLISHED` · `MISSING_OWNER_INPUT` (identity fields)
-**`TT_PRODUCTION_GO`:** NO_GO
-
-> Do not fabricate names, credentials, audits, or exchange relationships.
-
-## Uniform rules
-
-1. X bio: TravelTrust + role + web3-ttg.com
-2. Avatar: `https://www.web3-ttg.com/brand/token/ttg-avatar-256.png` unless Owner supplies photos
-3. Optional LinkedIn: one line `TravelTrust · [Role] · Present`
-
-## Member 1 — `MISSING_OWNER_INPUT`
-
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
+**语言：** 中文（本页） · [English](../en/14-team.md)
 
 ---
 
-## Member 2 — `MISSING_OWNER_INPUT`
+**状态：** `MISSING_OWNER_INPUT`（身份字段待 Owner 填写）
 
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
+> 禁止编造姓名、资历、审计或交易所关系。
 
----
+## 统一规则
 
-## Member 3 — `MISSING_OWNER_INPUT`
+1. X 简介：TravelTrust + 角色 + web3-ttg.com
+2. 头像：`https://www.web3-ttg.com/brand/token/ttg-avatar-256.png`（除非 Owner 提供照片）
+3. LinkedIn（可选）：一行 `TravelTrust · [角色] · Present`
 
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
+## 成员 1–5
 
----
+每位成员字段：显示名 · 角色 · 公开职责 · X 链接 · LinkedIn（可选）· 简介（≤280 字）
 
-## Member 4 — `MISSING_OWNER_INPUT`
+当前均为 `MISSING_OWNER_INPUT`。
 
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
+## 官方 X
 
----
-
-## Member 5 — `MISSING_OWNER_INPUT`
-
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
-
-
-## Official X
-
-| Field | Value |
-|-------|-------|
-| Full URL | `MISSING_OWNER_INPUT` |
-
-
----
-
-> 英文母版见 [English](../en/14-team.md)。本页为等待窗对外材料副本，非证券要约。
+`MISSING_OWNER_INPUT`

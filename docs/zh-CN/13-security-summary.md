@@ -1,35 +1,24 @@
-# 安全审计摘要
+# 安全与审计摘要
 
-**语言 / Language:** [English](../en/13-security-summary.md) · 中文（本页）
+**状态：** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**状态 STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
-
----
-
-# Security & Audit Summary (Honest)
-
-**STATUS:** `READY_NOT_PUBLISHED`
-
-## Security model (V9)
-
-- TTG: NO-MINT; no public holder burn; governance burn via Timelock
-- Fee router: Timelock-written payouts; 5% baseline
-- Pool: 90d ops cap ≤ 30% bps
-- SoloTimelock delays: OLD 48h → NEW 12h target
-
-## Audit status
-
-| Item | Status |
-|------|--------|
-| Internal AI audit waves (V9 candidate) | Evidence in repo — **≠ external firm audit** |
-| Third-party audit report (public) | **NOT PUBLISHED** — do not claim |
-| Bug bounty | See SECURITY.md on public GitHub |
-
-## Vulnerability reporting
-
-Public: docs/github-official/SECURITY.md · monorepo SECURITY.md
-
+**语言：** 中文（本页） · [English](../en/13-security-summary.md)
 
 ---
 
-> 英文母版见 [English](../en/13-security-summary.md)。本页为等待窗对外材料副本，非证券要约。
+## 安全模型（V9）
+
+- TTG：NO-MINT；无公开持有人销毁；治理销毁经 Timelock
+- 费用路由：Timelock 写入出款；基准 5%
+- 资金池：90 天运营上限 ≤ 30% bps
+- SoloTimelock 延迟：OLD 48h → 目标 NEW 12h
+
+## 审计状态
+
+| 项 | 状态 |
+|----|------|
+| 内部 AI 审计波次（V9 candidate） | 仓库有证据 — **≠** 外部机构审计 |
+| 第三方审计报告（公开） | **未发布** — 禁止宣称 |
+| Bug bounty | 见公开 GitHub SECURITY.md |
+
+漏洞报告：docs/github-official/SECURITY.md

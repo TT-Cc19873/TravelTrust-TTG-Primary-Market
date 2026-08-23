@@ -1,3 +1,5 @@
+> **Language:** English (this page) · [中文](../zh-CN/07-security.md)
+
 # Security
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  

@@ -1,3 +1,5 @@
+> **语言：** 中文技术文档（专有名词保留英文，如 Governor、Timelock、USDC）· [English](../en/01-primary-market.md)
+
 # 一级市场
 
 **上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  

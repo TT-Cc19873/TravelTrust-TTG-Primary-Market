@@ -1,24 +1,14 @@
 # 项目与代币介绍
 
-**语言 / Language:** [English](../en/18-project-intro.md) · 中文（本页）
+**状态：** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**状态 STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
-
----
-
-# Project & Token Standard Introduction
-
-**STATUS:** `READY_NOT_PUBLISHED`
-
-**TravelTrust** — decentralized travel commerce protocol (marketplace, escrow, fees, governance).
-
-**TTG (TravelTrust Governance Token)** — `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` on Ethereum mainnet (Phase1). 25T genesis. NO-MINT. Governance asset; orders settle in USDC.
-
-**Official site:** https://www.web3-ttg.com  
-**Contact:** traveltrust.ir@gmail.com  
-**Public docs:** docs/github-official/
-
+**语言：** 中文（本页） · [English](../en/18-project-intro.md)
 
 ---
 
-> 英文母版见 [English](../en/18-project-intro.md)。本页为等待窗对外材料副本，非证券要约。
+**TravelTrust** — 去中心化旅游商业协议（市场、托管、费用、治理）。
+
+**TTG（TravelTrust Governance Token）** — 以太坊主网（Phase1）`0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9`。创世 25T · NO-MINT。治理资产；订单以 USDC 结算。
+
+**官网：** https://www.web3-ttg.com  
+**联系：** traveltrust.ir@gmail.com

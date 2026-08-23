@@ -1,7 +1,12 @@
-# TravelTrust · 5-Person Team Introduction Template
+# Team (5-person template)
 
-**STATUS:** `READY_NOT_PUBLISHED` · `MISSING_OWNER_INPUT` (identity fields)
-**`TT_PRODUCTION_GO`:** NO_GO
+**STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
+
+**Language:** English (this page) · [中文](../zh-CN/14-team.md)
+
+---
+
+**STATUS:** `MISSING_OWNER_INPUT` (identity fields)
 
 > Do not fabricate names, credentials, audits, or exchange relationships.
 
@@ -11,72 +16,12 @@
 2. Avatar: `https://www.web3-ttg.com/brand/token/ttg-avatar-256.png` unless Owner supplies photos
 3. Optional LinkedIn: one line `TravelTrust · [Role] · Present`
 
-## Member 1 — `MISSING_OWNER_INPUT`
+## Members 1–5
 
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
+Each slot: display name · role · public responsibility · X URL · LinkedIn (optional) · bio (≤280 chars EN)
 
----
-
-## Member 2 — `MISSING_OWNER_INPUT`
-
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
-
----
-
-## Member 3 — `MISSING_OWNER_INPUT`
-
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
-
----
-
-## Member 4 — `MISSING_OWNER_INPUT`
-
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
-
----
-
-## Member 5 — `MISSING_OWNER_INPUT`
-
-| Field | Value |
-|-------|-------|
-| Display name | `MISSING_OWNER_INPUT` |
-| Role | `MISSING_OWNER_INPUT` |
-| Responsibility (public) | `MISSING_OWNER_INPUT` |
-| X URL | `MISSING_OWNER_INPUT` |
-| LinkedIn URL | `MISSING_OWNER_INPUT` (optional) |
-| Bio (≤280 chars EN) | `MISSING_OWNER_INPUT` |
-
+All fields currently `MISSING_OWNER_INPUT`.
 
 ## Official X
 
-| Field | Value |
-|-------|-------|
-| Full URL | `MISSING_OWNER_INPUT` |
+`MISSING_OWNER_INPUT`

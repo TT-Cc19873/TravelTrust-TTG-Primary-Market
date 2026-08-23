@@ -1,34 +1,21 @@
-# 常见问题 FAQ
+# 常见问题
 
-**语言 / Language:** [English](../en/11-faq.md) · 中文（本页）
+**状态：** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**状态 STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
-
----
-
-# FAQ · V9 Waiting Window Edition
-
-**STATUS:** `READY_NOT_PUBLISHED`
-
-## EN + 中文
-
-Base: docs/fundraising/external/03-FAQ.md and en/03-FAQ.md
-
-### V9-specific addendum
-
-**Q: Is TTG live and tradable on mainnet?**  
-A: Phase1 contract is deployed. Periphery governance cutover is pending. Not Production GO. Not a sale offer.
-
-**Q: Can I buy in the primary market now?**  
-A: Five batches are design-locked and Timelock-gated. `seedBatchesFromNorm` executes only after scheduled SoloTimelock operations — not available until post-cutover Reality.
-
-**Q: Is the project audited?**  
-A: Internal audit-candidate evidence exists; **no third-party audit firm PASS claimed** unless Owner publishes signed report.
-
-**Q: Contact?**  
-A: `traveltrust.ir@gmail.com` — not noreply@.
-
+**语言：** 中文（本页） · [English](../en/11-faq.md)
 
 ---
 
-> 英文母版见 [English](../en/11-faq.md)。本页为等待窗对外材料副本，非证券要约。
+### V9 等待窗增补
+
+**问：TTG 已在主网可交易了吗？**  
+答：Phase1 合约已部署；外围治理切换待完成。非 Production GO。非公售要约。
+
+**问：现在能参与一级市场购买吗？**  
+答：五批参数已设计锁定且经 Timelock 门闸；`seedBatchesFromNorm` 仅在预定 Timelock 操作执行后可用 — cutover Reality 之前不可参与。
+
+**问：项目有审计吗？**  
+答：仓库内有内部 audit-candidate 证据；**未宣称**第三方审计机构 PASS，除非 Owner 公开发布签字报告。
+
+**问：如何联系？**  
+答：`traveltrust.ir@gmail.com`（勿用 noreply@）。

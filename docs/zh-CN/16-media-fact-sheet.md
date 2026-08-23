@@ -1,39 +1,24 @@
-# 媒体 Fact Sheet
+# 媒体与合作伙伴 Fact Sheet
 
-**语言 / Language:** [English](../en/16-media-fact-sheet.md) · 中文（本页）
+**状态：** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
 
-**状态 STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER` · **`TT_PRODUCTION_GO`:** NO_GO
+**语言：** 中文（本页） · [English](../en/16-media-fact-sheet.md)
 
 ---
 
-# Media & Partner Fact Sheet
+TravelTrust 正在构建旅游商业信任协议基础设施，整合市场撮合与链上托管、治理。TTG V9 创世总量 25T、无增发。主网 Phase1 已部署，外围治理切换待 Timelock 窗口完成。`TT_PRODUCTION_GO`: NO_GO。
 
-**STATUS:** `READY_NOT_PUBLISHED`
+## 我们不宣称的事实
 
-## Boilerplate (EN)
-
-TravelTrust is building protocol infrastructure for trust in travel commerce, combining marketplace flows with on-chain escrow and governance. TTG V9 uses a fixed 25 trillion genesis supply with no post-genesis minting. Mainnet Phase1 is deployed; full periphery activation is pending timelock cutover. TT_PRODUCTION_GO: NO_GO.
-
-## Boilerplate (中文)
-
-TravelTrust 正在构建旅游商业信任协议基础设施，整合市场撮合与链上托管、治理。TTG V9 创世总量 25T、无增发。主网 Phase1 已部署，外围治理切换待 Timelock 窗口完成。非 Production GO。
-
-## Facts we do NOT claim
-
-- Binance / CoinList / any exchange listing
-- Third-party audit PASS
-- Token sale open now
-- Fixed returns
+- Binance / CoinList / 任何交易所上币
+- 第三方审计 PASS
+- 代币公售现已开放
+- 固定收益
 
 ## Logo
 
 https://www.web3-ttg.com/brand/token/ttg-logo-32.svg
 
-## Press contact
+## 媒体联系
 
 traveltrust.ir@gmail.com
-
-
----
-
-> 英文母版见 [English](../en/16-media-fact-sheet.md)。本页为等待窗对外材料副本，非证券要约。

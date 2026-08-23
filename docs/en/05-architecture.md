@@ -1,3 +1,5 @@
+> **Language:** English (this page) · [中文](../zh-CN/05-architecture.md)
+
 # Architecture
 
 **Upstream:** Documentation Truth Baseline · `V9_DOCUMENTATION_FULL_CONVERGENCE_PASS` · `TTG_V9_MAINNET_EDITION_WHITEPAPER_PASS` · Design Lock **DL_R1**  
