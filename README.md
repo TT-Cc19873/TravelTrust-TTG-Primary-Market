@@ -21,6 +21,7 @@ Public materials for the **TTG governance token** on-chain primary market (Norm 
 - [Platform format compliance](PLATFORM-FORMAT-COMPLIANCE.md)
 - [Video & media guide](VIDEO-MEDIA-GUIDE.md)
 - [Publish audit report](PUBLISH-AUDIT-REPORT.md)
+- [Content / security / legal audit](CONTENT-SECURITY-LEGAL-AUDIT-REPORT.md)
 - [Language policy](LANGUAGE-POLICY.md)
 - [Sync protocol](SYNC_PROTOCOL.md)
 

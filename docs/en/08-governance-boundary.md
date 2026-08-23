@@ -31,4 +31,4 @@
 - Production GO
 - Exchange listings
 
-SSOT: docs/spec/83-区域治理与收益分配-协议白皮书.md · docs/github-official/en/CountryFeeRouter.md
+SSOT: docs/github-official/en/CountryFeeRouter.md · docs/spec/83 regional governance whitepaper (zh)

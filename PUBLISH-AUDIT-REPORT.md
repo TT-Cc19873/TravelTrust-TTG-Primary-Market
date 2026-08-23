@@ -1,7 +1,7 @@
 # 发布审核报告 · Publish Audit Report
 
 **Verdict:** `STOP_NOT_PUBLISH_READY`
-**At UTC:** 2026-08-23T06:15:28Z
+**At UTC:** 2026-08-23T06:18:56Z
 
 ## 结论（诚实）
 
@@ -33,7 +33,6 @@
 ## 发现项
 
 - **P1** `md` — docs\en\00-START-HERE.md: Chinese in English doc
-- **P1** `md` — docs\en\08-governance-boundary.md: Chinese in English doc
 - **P1** `primary_market` — M-01 Etherscan: gap — team links + web form submit
 - **P1** `primary_market` — M-03 Website: gap — HTML publish
 - **P1** `primary_market` — M-30 Product BD: gap — 90s product demo MP4

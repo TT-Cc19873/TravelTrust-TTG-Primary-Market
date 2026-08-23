@@ -22,6 +22,7 @@
 - [视频与媒体说明](VIDEO-MEDIA-GUIDE.md)
 - [PDF 包](assets/pdf/)（One Pager + Pitch 大纲）
 - [发布审核报告](PUBLISH-AUDIT-REPORT.md)
+- [内容/安全/法务审计](CONTENT-SECURITY-LEGAL-AUDIT-REPORT.md)
 - [语言规范](LANGUAGE-POLICY.md)
 - [同步协议 SYNC_PROTOCOL](SYNC_PROTOCOL.md)
 
