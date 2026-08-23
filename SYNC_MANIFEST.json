@@ -1,0 +1,172 @@
+{
+  "synced_at_utc": "2026-08-23T05:49:31Z",
+  "monorepo_head": "6699ac0b834aab05706cae63c95264d75dcfbf6a",
+  "candidate_sha": "b19b85810c22677d243a82d06ebec8ebcb4d4b47",
+  "tt_production_go": "NO_GO",
+  "mainnet_status": "DEPLOYED_PENDING_CUTOVER",
+  "satellite_repo": "https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market",
+  "document_count": 20,
+  "catalog": [
+    {
+      "id": "00",
+      "topic_en": "Start here",
+      "topic_zh": "从这里开始",
+      "en": "docs/en/00-START-HERE.md",
+      "zh": "docs/zh-CN/00-START-HERE.md",
+      "status": "ready"
+    },
+    {
+      "id": "01",
+      "topic_en": "01 Primary Market",
+      "topic_zh": "一级市场",
+      "en": "docs/en/01-primary-market.md",
+      "zh": "docs/zh-CN/01-primary-market.md",
+      "status": "ready"
+    },
+    {
+      "id": "02",
+      "topic_en": "02 Governance",
+      "topic_zh": "治理",
+      "en": "docs/en/02-governance.md",
+      "zh": "docs/zh-CN/02-governance.md",
+      "status": "ready"
+    },
+    {
+      "id": "03",
+      "topic_en": "03 Tokenomics",
+      "topic_zh": "代币经济",
+      "en": "docs/en/03-tokenomics.md",
+      "zh": "docs/zh-CN/03-tokenomics.md",
+      "status": "ready"
+    },
+    {
+      "id": "04",
+      "topic_en": "04 Ttg V9",
+      "topic_zh": "TTG V9",
+      "en": "docs/en/04-ttg-v9.md",
+      "zh": "docs/zh-CN/04-ttg-v9.md",
+      "status": "ready"
+    },
+    {
+      "id": "05",
+      "topic_en": "05 Architecture",
+      "topic_zh": "架构",
+      "en": "docs/en/05-architecture.md",
+      "zh": "docs/zh-CN/05-architecture.md",
+      "status": "ready"
+    },
+    {
+      "id": "06",
+      "topic_en": "06 Mainnet Deployments",
+      "topic_zh": "主网部署",
+      "en": "docs/en/06-mainnet-deployments.md",
+      "zh": "docs/zh-CN/06-mainnet-deployments.md",
+      "status": "ready"
+    },
+    {
+      "id": "07",
+      "topic_en": "07 Security",
+      "topic_zh": "安全",
+      "en": "docs/en/07-security.md",
+      "zh": "docs/zh-CN/07-security.md",
+      "status": "ready"
+    },
+    {
+      "id": "08",
+      "topic_en": "08 Governance Boundary",
+      "topic_zh": "治理币与资金池边界",
+      "en": "docs/en/08-governance-boundary.md",
+      "zh": "docs/zh-CN/08-governance-boundary.md",
+      "status": "ready"
+    },
+    {
+      "id": "09",
+      "topic_en": "09 Contract Addresses",
+      "topic_zh": "合约地址表",
+      "en": "docs/en/09-contract-addresses.md",
+      "zh": "docs/zh-CN/09-contract-addresses.md",
+      "status": "ready"
+    },
+    {
+      "id": "10",
+      "topic_en": "10 Litepaper",
+      "topic_zh": "Litepaper 摘要",
+      "en": "docs/en/10-litepaper.md",
+      "zh": "docs/zh-CN/10-litepaper.md",
+      "status": "ready"
+    },
+    {
+      "id": "11",
+      "topic_en": "11 Faq",
+      "topic_zh": "常见问题 FAQ",
+      "en": "docs/en/11-faq.md",
+      "zh": "docs/zh-CN/11-faq.md",
+      "status": "ready"
+    },
+    {
+      "id": "12",
+      "topic_en": "12 Disclaimer",
+      "topic_zh": "免责声明",
+      "en": "docs/en/12-disclaimer.md",
+      "zh": "docs/zh-CN/12-disclaimer.md",
+      "status": "ready"
+    },
+    {
+      "id": "13",
+      "topic_en": "13 Security Summary",
+      "topic_zh": "安全审计摘要",
+      "en": "docs/en/13-security-summary.md",
+      "zh": "docs/zh-CN/13-security-summary.md",
+      "status": "ready"
+    },
+    {
+      "id": "14",
+      "topic_en": "14 Team",
+      "topic_zh": "团队介绍",
+      "en": "docs/en/14-team.md",
+      "zh": "docs/zh-CN/14-team.md",
+      "status": "ready"
+    },
+    {
+      "id": "15",
+      "topic_en": "15 One Pager",
+      "topic_zh": "One Pager",
+      "en": "docs/en/15-one-pager.md",
+      "zh": "docs/zh-CN/15-one-pager.md",
+      "status": "ready"
+    },
+    {
+      "id": "16",
+      "topic_en": "16 Media Fact Sheet",
+      "topic_zh": "媒体 Fact Sheet",
+      "en": "docs/en/16-media-fact-sheet.md",
+      "zh": "docs/zh-CN/16-media-fact-sheet.md",
+      "status": "ready"
+    },
+    {
+      "id": "17",
+      "topic_en": "17 Public Contact",
+      "topic_zh": "公开联系",
+      "en": "docs/en/17-public-contact.md",
+      "zh": "docs/zh-CN/17-public-contact.md",
+      "status": "ready"
+    },
+    {
+      "id": "18",
+      "topic_en": "18 Project Intro",
+      "topic_zh": "项目与代币介绍",
+      "en": "docs/en/18-project-intro.md",
+      "zh": "docs/zh-CN/18-project-intro.md",
+      "status": "ready"
+    },
+    {
+      "id": "19",
+      "topic_en": "19 Etherscan Pack",
+      "topic_zh": "Etherscan 提交包",
+      "en": "docs/en/19-etherscan-pack.md",
+      "zh": "docs/zh-CN/19-etherscan-pack.md",
+      "status": "ready"
+    }
+  ],
+  "sync_command": "python scripts/dev/sync-ttg-primary-market-satellite-repo.py --build --deploy --push"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "READY_NOT_SUBMITTED",
+  "contract_address": "0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9",
+  "project": {
+    "website": "https://www.web3-ttg.com",
+    "email": "traveltrust.ir@gmail.com"
+  },
+  "logo": {
+    "primary_url": "https://www.web3-ttg.com/brand/token/ttg-logo-32.svg"
+  },
+  "social_profiles": {
+    "official_x": "MISSING_OWNER_INPUT"
+  },
+  "owner_submit_after": [
+    "V9_MAINNET_REALITY_PASS_STOP"
+  ]
+}
