@@ -5,15 +5,15 @@
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
 **Mainnet:** Sale schedule pin `V9_SHORT_WINDOW_FIVE_ROUND` (Timelock execute 2026-08-26). Exchange windows are **not open to the public**. **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-Five short Norm windows via NEW Batch Primary Market + PublicSaleVault (about **3.905%** of 25T):
+Five short Norm windows via NEW Batch Primary Market + PublicSaleVault (Official release names: Genesis calibration / Community early bird / Builder round / Public round / Final public round; about **3.905%** of 25T):
 
-| Batch | Cap (TTG) | USDC / 1 TTG (6-dec raw) | UTC window |
-|-------|-----------|--------------------------|------------|
-| 1 | 1.25B | 1 | 2026-10-15 → 2026-10-22 (7d) |
-| 2 | 6.25B | 3 | 2026-11-12 → 2026-11-26 (14d) |
-| 3 | 31.25B | 5 | 2027-01-12 → 2027-02-02 (21d) |
-| 4 | 312.5B | 7 | 2027-03-09 → 2027-04-08 (30d) |
-| 5 | 625B | 9 | 2027-05-06 → 2027-06-20 (45d) |
+| Round | Name | Cap (TTG) | ~ USDC / 1 TTG | UTC window |
+|-------|------|-----------|----------------|------------|
+| 1 | Genesis calibration | 1.25B | $0.000001 | 2026-10-15 → 2026-10-22 (7d) |
+| 2 | Community early bird | 6.25B | $0.000003 | 2026-11-12 → 2026-11-26 (14d) |
+| 3 | Builder round | 31.25B | $0.000005 | 2027-01-12 → 2027-02-02 (21d) |
+| 4 | Public round | 312.5B | $0.000007 | 2027-03-09 → 2027-04-08 (30d) |
+| 5 | Final public round | 625B | $0.000009 | 2027-05-06 → 2027-06-20 (45d) |
 
 - Price ladder unchanged: `1 / 3 / 5 / 7 / 9` µUSDC per whole TTG (about `$0.000001` → `$0.000009`)
 - Gaps between rounds skip Christmas and Lunar New Year. Windows are `[start, end)`.

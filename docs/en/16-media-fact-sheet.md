@@ -6,7 +6,7 @@
 
 ---
 
-TravelTrust is building protocol infrastructure for trust in travel commerce, combining marketplace flows with on-chain escrow and governance. TTG V9 uses a fixed 25 trillion genesis supply with no post-genesis minting. Mainnet Phase1 is deployed; full periphery activation is pending timelock cutover. `TT_PRODUCTION_GO`: NO_GO.
+TravelTrust is building protocol infrastructure for trust in travel commerce, combining marketplace flows with on-chain escrow and governance. TTG V9 uses a fixed 25 trillion genesis supply with no post-genesis minting. Public exchange follows the Official Web3 release notes: five short named windows (Genesis calibration → Final public round), about 3.905% of supply; **windows are not open**. `TT_PRODUCTION_GO`: NO_GO.
 
 ## Facts we do NOT claim
 

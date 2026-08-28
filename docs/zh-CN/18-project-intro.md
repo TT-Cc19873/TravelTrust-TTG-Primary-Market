@@ -10,5 +10,7 @@
 
 **TTG（TravelTrust Governance Token）** — 以太坊主网（Phase1）`0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9`。创世 25T · NO-MINT。治理资产；订单以 USDC 结算。
 
+公开兑换见官网发布说明与 `15-one-pager`：五轮短窗（创始校准 / 社区早鸟 / 建设者轮 / 公开轮 / 最终公开轮），**窗口未开**。
+
 **官网：** https://www.web3-ttg.com  
 **联系：** traveltrust.ir@gmail.com
