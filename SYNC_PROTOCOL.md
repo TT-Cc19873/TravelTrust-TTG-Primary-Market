@@ -1,6 +1,6 @@
 # 同步协议 · Sync Protocol
 
-**卫星仓库 Satellite:** [https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market](https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market)  
+**卫星仓库 Satellite:** [https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market)  
 **主仓库 Monorepo:** `TravelTrust-V1.1`（私有工作仓）
 
 ---

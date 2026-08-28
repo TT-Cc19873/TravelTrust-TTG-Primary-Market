@@ -1,10 +1,10 @@
 # Start Here · TTG Governance Primary Market Materials
 
-**Language:** English (this page) · [中文](../zh-CN/00-START-HERE.md)
+**Language:** English (this page) · [Chinese](../zh-CN/00-START-HERE.md)
 
 | Field | Value |
 |-------|-------|
-| **Repository** | [https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market](https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market) |
+| **Repository** | [https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market) |
 | **Website** | [https://www.web3-ttg.com](https://www.web3-ttg.com) |
 | **Contact** | [traveltrust.ir@gmail.com](mailto:traveltrust.ir@gmail.com) |
 | **Mainnet** | `DEPLOYED_PENDING_CUTOVER` |

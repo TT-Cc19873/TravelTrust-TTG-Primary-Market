@@ -6,10 +6,6 @@
 
 ---
 
-**STATUS:** `READY_NOT_PUBLISHED` · `DEPLOYED_PENDING_CUTOVER`
-**`TT_PRODUCTION_GO`:** NO_GO
-**Candidate SHA:** `b19b85810c22677d243a82d06ebec8ebcb4d4b47`
-
 | Contract | Address | Status label |
 |----------|---------|--------------|
 | TTG Token (KEEP) | `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` | DEPLOYED_PENDING_CUTOVER |

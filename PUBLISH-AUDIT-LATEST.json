@@ -1,40 +1,47 @@
 {
   "stamp": "TTG_PRIMARY_MARKET_PUBLISH_AUDIT",
-  "at_utc": "2026-08-23T06:18:56Z",
+  "at_utc": "2026-08-28T11:19:30Z",
   "verdict": "STOP_NOT_PUBLISH_READY",
   "publishable_external_send": false,
+  "ai_production_gaps": 3,
   "note": "PASS_DRAFT_INTERNAL_ONLY = internal/GitHub draft OK; NOT launchpad/CEX submission ready",
   "finding_count": 6,
   "findings": [
     {
       "severity": "P1",
-      "area": "md",
-      "issue": "docs\\en\\00-START-HERE.md: Chinese in English doc"
+      "area": "ai_production",
+      "issue": "M-30: missing or undersized V9 90s demo MP4",
+      "fixable_by": "ai_production"
+    },
+    {
+      "severity": "P1",
+      "area": "ai_production",
+      "issue": "M-30: missing 15-page IR visual Pitch Deck (PPTX+PDF)",
+      "fixable_by": "ai_production"
+    },
+    {
+      "severity": "P1",
+      "area": "ai_production",
+      "issue": "IR-PUBLICATION-QA-LATEST.json missing",
+      "fixable_by": "ai_production"
     },
     {
       "severity": "P1",
       "area": "primary_market",
-      "issue": "M-01 Etherscan: gap — team links + web form submit"
+      "issue": "M-01 Etherscan: gap — team links + web form submit",
+      "fixable_by": "owner_or_reality"
     },
     {
       "severity": "P1",
       "area": "primary_market",
-      "issue": "M-03 Website: gap — HTML publish"
-    },
-    {
-      "severity": "P1",
-      "area": "primary_market",
-      "issue": "M-30 Product BD: gap — 90s product demo MP4"
-    },
-    {
-      "severity": "P1",
-      "area": "primary_market",
-      "issue": "M-30 Product BD: gap — visual Pitch Deck PDF (not outline)"
+      "issue": "M-03 Website: gap — HTML publish",
+      "fixable_by": "owner_or_reality"
     },
     {
       "severity": "P0",
       "area": "publish",
-      "issue": "team template still MISSING_OWNER_INPUT — blocks external send"
+      "issue": "team template still MISSING_OWNER_INPUT — blocks external send",
+      "fixable_by": "owner"
     }
   ]
 }

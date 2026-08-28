@@ -6,8 +6,6 @@
 
 ---
 
-**STATUS:** `READY_NOT_PUBLISHED`
-
 ## TTG is
 
 - Governance + budget program asset (25T genesis, NO-MINT)

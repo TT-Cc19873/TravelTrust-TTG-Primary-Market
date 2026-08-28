@@ -6,8 +6,6 @@
 
 ---
 
-**STATUS:** `READY_NOT_PUBLISHED`
-
 Condensed protocol summary — align with Mainnet Edition whitepaper §0–§6.
 
 - 25T TTG genesis · NO-MINT

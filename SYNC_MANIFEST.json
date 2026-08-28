@@ -1,10 +1,10 @@
 {
-  "synced_at_utc": "2026-08-23T06:18:57Z",
-  "monorepo_head": "6699ac0b834aab05706cae63c95264d75dcfbf6a",
+  "synced_at_utc": "2026-08-28T11:19:30Z",
+  "monorepo_head": "d9f7cad43ba848dcd25c06e2d525aaad922dd6e5",
   "candidate_sha": "b19b85810c22677d243a82d06ebec8ebcb4d4b47",
   "tt_production_go": "NO_GO",
   "mainnet_status": "DEPLOYED_PENDING_CUTOVER",
-  "satellite_repo": "https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market",
+  "satellite_repo": "https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market",
   "document_count": 20,
   "catalog": [
     {

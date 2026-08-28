@@ -6,8 +6,6 @@
 
 ---
 
-**STATUS:** `READY`
-
 | Surface | Value | Notes |
 |---------|-------|-------|
 | Human / IR / Etherscan | `traveltrust.ir@gmail.com` | Official per registry |

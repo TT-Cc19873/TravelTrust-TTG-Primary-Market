@@ -6,7 +6,7 @@ Public materials for the **TTG governance token** on-chain primary market (Norm 
 
 | Field | Value |
 |-------|-------|
-| **GitHub** | [https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market](https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market) |
+| **GitHub** | [https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market) |
 | **Website** | [https://www.web3-ttg.com](https://www.web3-ttg.com) |
 | **Contact** | [traveltrust.ir@gmail.com](mailto:traveltrust.ir@gmail.com) |
 | **Mainnet** | `DEPLOYED_PENDING_CUTOVER` |
@@ -21,6 +21,7 @@ Public materials for the **TTG governance token** on-chain primary market (Norm 
 - [Platform format compliance](PLATFORM-FORMAT-COMPLIANCE.md)
 - [Video & media guide](VIDEO-MEDIA-GUIDE.md)
 - [Publish audit report](PUBLISH-AUDIT-REPORT.md)
+- [Publication readiness matrix](PUBLICATION_READINESS_MATRIX.md)
 - [Content / security / legal audit](CONTENT-SECURITY-LEGAL-AUDIT-REPORT.md)
 - [Language policy](LANGUAGE-POLICY.md)
 - [Sync protocol](SYNC_PROTOCOL.md)

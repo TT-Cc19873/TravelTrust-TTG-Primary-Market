@@ -6,9 +6,6 @@
 
 ---
 
-**STATUS:** `READY_NOT_PUBLISHED` · **Edition:** V9 · 2026-08-23
-**`TT_PRODUCTION_GO`:** NO_GO · **Mainnet:** `DEPLOYED_PENDING_CUTOVER`
-
 ## One sentence
 
 TravelTrust is a trust-based travel commerce protocol combining marketplace, on-chain escrow, fee routing, governance, and community onboarding.

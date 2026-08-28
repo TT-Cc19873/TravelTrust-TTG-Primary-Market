@@ -6,9 +6,6 @@
 
 ---
 
-**STATUS:** `READY_NOT_SUBMITTED` · `DEPLOYED_PENDING_CUTOVER`
-**`TT_PRODUCTION_GO`:** NO_GO
-
 ## Form draft
 
 | Field | Value |

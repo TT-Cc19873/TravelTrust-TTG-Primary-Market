@@ -22,3 +22,5 @@
 | USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | `KEEP` |
 
 待完成（非 Fully Active）：Solo `idBind` / `idSeed` / `idCallerSr` / `idCallerEf` · KEEP `setFeeRouter(NEW CountryFeeRouter)`。
+
+> **完整 OLD/NEW 地址全表：** 见卫星仓 [09-contract-addresses](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market/blob/main/docs/zh-CN/09-contract-addresses.md)。本页仅为 **Phase1 简表**；上表含迁移完成前的 OLD 栈，勿误读为终局 Official。

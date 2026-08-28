@@ -6,8 +6,6 @@
 
 ---
 
-**STATUS:** `READY_NOT_PUBLISHED`
-
 General information only; not investment, legal, or tax advice. No offer to sell securities or virtual assets.
 
 **Risks include:** smart contract bugs, governance/timelock delays, regulatory change, market volatility, dependency on third-party infrastructure (RPC, explorers), incomplete mainnet cutover, and absence of guaranteed liquidity or exchange listing.

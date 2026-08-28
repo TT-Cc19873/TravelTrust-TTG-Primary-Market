@@ -6,8 +6,6 @@
 
 ---
 
-**STATUS:** `MISSING_OWNER_INPUT` (identity fields)
-
 > Do not fabricate names, credentials, audits, or exchange relationships.
 
 ## Uniform rules

@@ -4,7 +4,7 @@
 
 | 项 | 值 |
 |----|-----|
-| **仓库** | [https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market](https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market) |
+| **仓库** | [https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market) |
 | **官网** | [https://www.web3-ttg.com](https://www.web3-ttg.com) |
 | **联系** | [traveltrust.ir@gmail.com](mailto:traveltrust.ir@gmail.com) |
 | **主网状态** | `DEPLOYED_PENDING_CUTOVER` |

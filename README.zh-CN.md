@@ -6,7 +6,7 @@
 
 | 项 | 值 |
 |----|-----|
-| **GitHub** | [https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market](https://github.com/TT-Expedition/TravelTrust-TTG-Primary-Market) |
+| **GitHub** | [https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market) |
 | **官网** | [https://www.web3-ttg.com](https://www.web3-ttg.com) |
 | **联系** | [traveltrust.ir@gmail.com](mailto:traveltrust.ir@gmail.com) |
 | **主网** | `DEPLOYED_PENDING_CUTOVER` |
@@ -22,6 +22,7 @@
 - [视频与媒体说明](VIDEO-MEDIA-GUIDE.md)
 - [PDF 包](assets/pdf/)（One Pager + Pitch 大纲）
 - [发布审核报告](PUBLISH-AUDIT-REPORT.md)
+- [发布就绪矩阵](PUBLICATION_READINESS_MATRIX.md)
 - [内容/安全/法务审计](CONTENT-SECURITY-LEGAL-AUDIT-REPORT.md)
 - [语言规范](LANGUAGE-POLICY.md)
 - [同步协议 SYNC_PROTOCOL](SYNC_PROTOCOL.md)

@@ -22,3 +22,5 @@
 | USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | `KEEP` |
 
 Pending (not Fully Active): Solo `idBind` / `idSeed` / `idCallerSr` / `idCallerEf` · KEEP `setFeeRouter(NEW CountryFeeRouter)`.
+
+> **Full OLD/NEW address map:** see satellite doc [09-contract-addresses](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market/blob/main/docs/en/09-contract-addresses.md). This page is a **Phase1 summary**; rows above include the pre-migration OLD stack until cutover Reality.

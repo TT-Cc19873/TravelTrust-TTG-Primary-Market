@@ -1,0 +1,485 @@
+{
+  "stamp": "V9_PRIMARY_MARKET_PUBLICATION_READINESS_MATRIX",
+  "at_utc": "2026-08-28T11:19:30Z",
+  "verdict": "V9_PRIMARY_MARKET_MANUAL_PUBLICATION_CLASSIFICATION_PASS_STOP",
+  "candidate_sha": "b19b85810c22677d243a82d06ebec8ebcb4d4b47",
+  "tt_production_go": "NO_GO",
+  "content_audit": {
+    "verdict": "PASS_CONTENT_CLEAN",
+    "finding_count": 0
+  },
+  "publish_audit": {
+    "verdict": "STOP_NOT_PUBLISH_READY",
+    "finding_count": 6,
+    "publishable_external_send": false
+  },
+  "ai_fixable_count": 0,
+  "owner_blocker_count": 5,
+  "reality_blocker_count": 1,
+  "ai_fixes_applied": [],
+  "ai_fixable_findings": [],
+  "owner_blockers": [
+    {
+      "severity": "P1",
+      "area": "ai_production",
+      "issue": "M-30: missing or undersized V9 90s demo MP4",
+      "fixable_by": "owner_or_deferred"
+    },
+    {
+      "severity": "P1",
+      "area": "ai_production",
+      "issue": "M-30: missing 15-page IR visual Pitch Deck (PPTX+PDF)",
+      "fixable_by": "owner_or_deferred"
+    },
+    {
+      "severity": "P1",
+      "area": "ai_production",
+      "issue": "IR-PUBLICATION-QA-LATEST.json missing",
+      "fixable_by": "owner_or_deferred"
+    },
+    {
+      "severity": "P1",
+      "area": "primary_market",
+      "issue": "M-03 Website: gap — HTML publish",
+      "fixable_by": "owner_or_reality"
+    },
+    {
+      "severity": "P0",
+      "area": "publish",
+      "issue": "team template still MISSING_OWNER_INPUT — blocks external send",
+      "fixable_by": "owner"
+    }
+  ],
+  "reality_blockers": [
+    {
+      "severity": "P1",
+      "area": "primary_market",
+      "issue": "M-01 Etherscan: gap — team links + web form submit",
+      "fixable_by": "reality_or_owner"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-00",
+      "slug": "00-START-HERE",
+      "title_zh": "从这里开始",
+      "title_en": "Start here",
+      "paths": [
+        "docs/zh-CN/00-START-HERE.md",
+        "docs/en/00-START-HERE.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "导航+三事实写死+免责声明；无融资承诺",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "mainnet_status_label",
+        "production_go_line"
+      ]
+    },
+    {
+      "id": "DOC-01",
+      "slug": "01-primary-market",
+      "title_zh": "一级市场五批 Norm",
+      "title_en": "Primary market five batches",
+      "paths": [
+        "docs/zh-CN/01-primary-market.md",
+        "docs/en/01-primary-market.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "五批 cap/价格与 github-official 一致；明示 cutover pending",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "timelock_execute_status",
+        "sale_availability_wording"
+      ]
+    },
+    {
+      "id": "DOC-02",
+      "slug": "02-governance",
+      "title_zh": "治理",
+      "title_en": "Governance",
+      "paths": [
+        "docs/zh-CN/02-governance.md",
+        "docs/en/02-governance.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "Governor→Timelock 路径与 V9 一致；无越权承诺",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "old_tl_migration_status",
+        "new_tl_active_label"
+      ]
+    },
+    {
+      "id": "DOC-03",
+      "slug": "03-tokenomics",
+      "title_zh": "代币经济",
+      "title_en": "Tokenomics",
+      "paths": [
+        "docs/zh-CN/03-tokenomics.md",
+        "docs/en/03-tokenomics.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "50/35/3/5/7 与 25T NO-MINT 与 pins 一致",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "marketing_norm_wallet_publish_note"
+      ]
+    },
+    {
+      "id": "DOC-04",
+      "slug": "04-ttg-v9",
+      "title_zh": "TTG V9",
+      "title_en": "TTG V9",
+      "paths": [
+        "docs/zh-CN/04-ttg-v9.md",
+        "docs/en/04-ttg-v9.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "治理币边界/USDC/NO-MINT 核心事实",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "phase1_address_status_label"
+      ]
+    },
+    {
+      "id": "DOC-05",
+      "slug": "05-architecture",
+      "title_zh": "架构",
+      "title_en": "Architecture",
+      "paths": [
+        "docs/zh-CN/05-architecture.md",
+        "docs/en/05-architecture.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "NEW/KEEP/LEGACY 三分；无旧叙事冒充 Official",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "active_registry_label"
+      ]
+    },
+    {
+      "id": "DOC-06",
+      "slug": "06-mainnet-deployments",
+      "title_zh": "主网部署简表",
+      "title_en": "Mainnet deployments summary",
+      "paths": [
+        "docs/zh-CN/06-mainnet-deployments.md",
+        "docs/en/06-mainnet-deployments.md"
+      ],
+      "tier": "PUBLIC_AFTER_OWNER_REVIEW",
+      "public_reason": "Phase1 简表可披露但易误读 OLD 为终局",
+      "blockers": [
+        "reader_may_confuse_old_stack_as_final"
+      ],
+      "owner_review_fields": [
+        "confirm_phase1_summary_ok_pre_cutover"
+      ],
+      "reality_replace_fields": [
+        "full_new_stack_promotion",
+        "verified_links"
+      ]
+    },
+    {
+      "id": "DOC-07",
+      "slug": "07-security",
+      "title_zh": "安全",
+      "title_en": "Security",
+      "paths": [
+        "docs/zh-CN/07-security.md",
+        "docs/en/07-security.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "安全模型与 audit-candidate≠外部审计 表述诚实",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "third_party_audit_url_if_published"
+      ]
+    },
+    {
+      "id": "DOC-08",
+      "slug": "08-governance-boundary",
+      "title_zh": "治理币与资金池边界",
+      "title_en": "Governance country pool boundary",
+      "paths": [
+        "docs/zh-CN/08-governance-boundary.md",
+        "docs/en/08-governance-boundary.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "500bps/45-55/USDC/ProjectPool 与 V9 一致",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "regionvault_endstate_wording"
+      ]
+    },
+    {
+      "id": "DOC-09",
+      "slug": "09-contract-addresses",
+      "title_zh": "合约地址全表",
+      "title_en": "Contract address table",
+      "paths": [
+        "docs/zh-CN/09-contract-addresses.md",
+        "docs/en/09-contract-addresses.md",
+        "assets/contract-addresses.json"
+      ],
+      "tier": "PUBLIC_AFTER_OWNER_REVIEW",
+      "public_reason": "全量 OLD/NEW 地址透明但 cutover 前敏感",
+      "blockers": [],
+      "owner_review_fields": [
+        "confirm_publish_full_address_map_pre_cutover"
+      ],
+      "reality_replace_fields": [
+        "legacy_section_retire",
+        "etherscan_verify_links"
+      ]
+    },
+    {
+      "id": "DOC-10",
+      "slug": "10-litepaper",
+      "title_zh": "Litepaper 摘要",
+      "title_en": "Litepaper summary",
+      "paths": [
+        "docs/zh-CN/10-litepaper.md",
+        "docs/en/10-litepaper.md"
+      ],
+      "tier": "PUBLIC_AFTER_OWNER_REVIEW",
+      "public_reason": "摘要草稿；非完整 Litepaper PDF",
+      "blockers": [
+        "not_full_litepaper"
+      ],
+      "owner_review_fields": [
+        "legal_wording_signoff"
+      ],
+      "reality_replace_fields": [
+        "published_litepaper_url"
+      ]
+    },
+    {
+      "id": "DOC-11",
+      "slug": "11-faq",
+      "title_zh": "常见问题",
+      "title_en": "FAQ",
+      "paths": [
+        "docs/zh-CN/11-faq.md",
+        "docs/en/11-faq.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "诚实 FAQ；否定审计 PASS/公售开放",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "sale_open_answer",
+        "audit_answer_if_report_published"
+      ]
+    },
+    {
+      "id": "DOC-12",
+      "slug": "12-disclaimer",
+      "title_zh": "免责声明",
+      "title_en": "Disclaimer",
+      "paths": [
+        "docs/zh-CN/12-disclaimer.md",
+        "docs/en/12-disclaimer.md"
+      ],
+      "tier": "PUBLIC_AFTER_OWNER_REVIEW",
+      "public_reason": "风险披露模板；外发前须 Owner/法务过目",
+      "blockers": [],
+      "owner_review_fields": [
+        "owner_legal_signoff"
+      ],
+      "reality_replace_fields": [
+        "jurisdiction_specific_addenda"
+      ]
+    },
+    {
+      "id": "DOC-13",
+      "slug": "13-security-summary",
+      "title_zh": "安全审计摘要",
+      "title_en": "Security audit summary",
+      "paths": [
+        "docs/zh-CN/13-security-summary.md",
+        "docs/en/13-security-summary.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "明确无第三方审计 PASS 宣称",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "third_party_audit_report_url"
+      ]
+    },
+    {
+      "id": "DOC-14",
+      "slug": "14-team",
+      "title_zh": "团队介绍",
+      "title_en": "Team template",
+      "paths": [
+        "docs/zh-CN/14-team.md",
+        "docs/en/14-team.md"
+      ],
+      "tier": "INTERNAL_ONLY",
+      "public_reason": null,
+      "blockers": [
+        "MISSING_OWNER_INPUT_all_identity_fields"
+      ],
+      "owner_review_fields": [
+        "display_name",
+        "role",
+        "x_url",
+        "linkedin",
+        "bio_x5",
+        "official_x"
+      ],
+      "reality_replace_fields": [
+        "website_team_page_publish"
+      ]
+    },
+    {
+      "id": "DOC-15",
+      "slug": "15-one-pager",
+      "title_zh": "One Pager",
+      "title_en": "One pager",
+      "paths": [
+        "docs/zh-CN/15-one-pager.md",
+        "docs/en/15-one-pager.md",
+        "assets/pdf/TTG-Primary-Market-OnePager-zh-CN.pdf",
+        "assets/pdf/TTG-Primary-Market-OnePager-en.pdf"
+      ],
+      "tier": "PUBLIC_AFTER_OWNER_REVIEW",
+      "public_reason": "文字草稿可备查；PDF 为 DRAFT 非 IR 终稿",
+      "blockers": [
+        "pdf_not_ir_grade"
+      ],
+      "owner_review_fields": [
+        "owner_legal_signoff",
+        "press_use_approval"
+      ],
+      "reality_replace_fields": [
+        "stage_banner",
+        "demo_env_label"
+      ]
+    },
+    {
+      "id": "DOC-16",
+      "slug": "16-media-fact-sheet",
+      "title_zh": "媒体 Fact Sheet",
+      "title_en": "Media fact sheet",
+      "paths": [
+        "docs/zh-CN/16-media-fact-sheet.md",
+        "docs/en/16-media-fact-sheet.md"
+      ],
+      "tier": "PUBLIC_AFTER_OWNER_REVIEW",
+      "public_reason": "媒体 boilerplate 诚实；外发前 Owner 确认",
+      "blockers": [],
+      "owner_review_fields": [
+        "press_contact_authorization",
+        "boilerplate_signoff"
+      ],
+      "reality_replace_fields": [
+        "mainnet_status_line",
+        "go_line"
+      ]
+    },
+    {
+      "id": "DOC-17",
+      "slug": "17-public-contact",
+      "title_zh": "公开联系",
+      "title_en": "Public contact",
+      "paths": [
+        "docs/zh-CN/17-public-contact.md",
+        "docs/en/17-public-contact.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "traveltrust.ir@gmail.com 与 registry 一致",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": [
+        "support_routing_if_changed"
+      ]
+    },
+    {
+      "id": "DOC-18",
+      "slug": "18-project-intro",
+      "title_zh": "项目与代币介绍",
+      "title_en": "Project and token intro",
+      "paths": [
+        "docs/zh-CN/18-project-intro.md",
+        "docs/en/18-project-intro.md"
+      ],
+      "tier": "PUBLIC_READY",
+      "public_reason": "标准介绍；治理币+USDC 边界清晰",
+      "blockers": [],
+      "owner_review_fields": [],
+      "reality_replace_fields": []
+    },
+    {
+      "id": "DOC-19",
+      "slug": "19-etherscan-pack",
+      "title_zh": "Etherscan 提交包",
+      "title_en": "Etherscan submission pack",
+      "paths": [
+        "docs/zh-CN/19-etherscan-pack.md",
+        "docs/en/19-etherscan-pack.md",
+        "assets/etherscan/ETHERSCAN_FORM_DRAFT.json"
+      ],
+      "tier": "DEFERRED_UNTIL_MAINNET_REALITY",
+      "public_reason": null,
+      "blockers": [
+        "not_submitted",
+        "contract_verify_prerequisite"
+      ],
+      "owner_review_fields": [
+        "team_links_for_form",
+        "owner_web_submit"
+      ],
+      "reality_replace_fields": [
+        "etherscan_verified_url",
+        "logo_live_url_check"
+      ]
+    }
+  ],
+  "pack_level": {
+    "github_public_repo_tier": "PUBLIC_AFTER_OWNER_REVIEW",
+    "external_send_tier": "INTERNAL_ONLY",
+    "launchpad_cex_tier": "INTERNAL_ONLY",
+    "note": "仓库可公开为披露草稿；整包外发/申请须 Owner + Reality 分项解锁"
+  },
+  "tier_summary": {
+    "PUBLIC_READY": [
+      "DOC-00 00-START-HERE",
+      "DOC-01 01-primary-market",
+      "DOC-02 02-governance",
+      "DOC-03 03-tokenomics",
+      "DOC-04 04-ttg-v9",
+      "DOC-05 05-architecture",
+      "DOC-07 07-security",
+      "DOC-08 08-governance-boundary",
+      "DOC-11 11-faq",
+      "DOC-13 13-security-summary",
+      "DOC-17 17-public-contact",
+      "DOC-18 18-project-intro"
+    ],
+    "PUBLIC_AFTER_OWNER_REVIEW": [
+      "DOC-06 06-mainnet-deployments",
+      "DOC-09 09-contract-addresses",
+      "DOC-10 10-litepaper",
+      "DOC-12 12-disclaimer",
+      "DOC-15 15-one-pager",
+      "DOC-16 16-media-fact-sheet"
+    ],
+    "INTERNAL_ONLY": [
+      "DOC-14 14-team"
+    ],
+    "DEFERRED_UNTIL_MAINNET_REALITY": [
+      "DOC-19 19-etherscan-pack"
+    ]
+  }
+}

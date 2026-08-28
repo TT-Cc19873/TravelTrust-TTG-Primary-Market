@@ -6,8 +6,6 @@
 
 ---
 
-**STATUS:** `READY_NOT_PUBLISHED`
-
 ## Security model (V9)
 
 - TTG: NO-MINT; no public holder burn; governance burn via Timelock

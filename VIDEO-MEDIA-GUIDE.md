@@ -10,7 +10,8 @@
 
 | 类型 | 文件 / 位置 | 用途 | 一级市场材料包 |
 |------|-------------|------|----------------|
-| **产品 Demo（标准）** | `docs/fundraising/external/export-ready/demo/TravelTrust-Product-Demo-v*.mp4` | 约 **90 秒一镜**：市场 → 下单 → Escrow → 争议/评分（见 SCREEN-RECORDING-BRIEF） | **首选**（投资人/LP、产品 BD 正式包） |
+| **产品 Demo（V9 标准）** | `assets/demo/TravelTrust-Product-Demo-V9-90s-en.mp4` | 约 **90 秒**：`/` → `/market` → `/escrow` → `/did-rank`（见 `STORYBOARD-V9-90s.md`） | **首选** |
+| **产品 Demo（legacy）** | `docs/fundraising/external/export-ready/demo/TravelTrust-Product-Demo-v*.mp4` | 旧投资人包路径 | 旁证 |
 | **角色身份宣传片** | `frontend/public/media/traveltrust/roles/*.mp4` | `/traveltrust` 角色剧场：谁在用协议 | **可作补充**，不能冒充标准 Demo |
 
 ### 你们已有的 6 条角色视频（可用）
@@ -36,13 +37,12 @@
 | 文件 | 说明 |
 |------|------|
 | `TTG-Primary-Market-OnePager-zh-CN.pdf` / `-en.pdf` | One Pager 文字版 |
-| `TTG-Primary-Market-PitchDeck-outline-zh-CN.pdf` / `-en.pdf` | Pitch **内容大纲**（非视觉设计终稿） |
-
-生成命令（主仓库）：
+| `TTG-V9-Primary-Market-PitchDeck-15p-en.pdf` / `zh-CN.pdf` | **15 页 IR 视觉 Deck**（PPTX 同源） |
+| `TTG-Primary-Market-Litepaper-*.pdf` | Litepaper IR 出版草稿 |
+| `TTG-Primary-Market-PitchDeck-outline-*.pdf` | Pitch **内容大纲**（非主 Deck） |
 
 ```bash
-python scripts/dev/build-ttg-primary-market-pdf-pack.py
-python scripts/dev/sync-ttg-primary-market-satellite-repo.py --build --deploy --staging-push --push
+python scripts/dev/run-ttg-v9-external-materials-production-closure.py --require-pass
 ```
 
 ---
@@ -53,7 +53,7 @@ python scripts/dev/sync-ttg-primary-market-satellite-repo.py --build --deploy --
 
 | Type | Location | Purpose | Primary market pack |
 |------|----------|---------|---------------------|
-| **Product demo (canonical)** | `export-ready/demo/TravelTrust-Product-Demo-v*.mp4` | **~90s one-take**: market → order → escrow → dispute/rating | **Preferred** for LP / formal BD |
+| **Product demo (V9 canonical)** | `assets/demo/TravelTrust-Product-Demo-V9-90s-en.mp4` | **~90s**: `/` → `/market` → `/escrow` → `/did-rank` — see `STORYBOARD-V9-90s.md` | **Preferred** |
 | **Role identity promos** | `frontend/public/media/traveltrust/roles/*.mp4` | `/traveltrust` theater — who uses the protocol | **Supplement only** — not a substitute for the canonical demo |
 
 Six role videos exist (traveler, guide, merchant, provider, acquisition, region_steward). **Usable** as role-intro supplements; label honestly.

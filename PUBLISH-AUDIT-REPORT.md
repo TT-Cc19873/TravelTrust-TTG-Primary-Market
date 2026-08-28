@@ -1,7 +1,7 @@
 # 发布审核报告 · Publish Audit Report
 
 **Verdict:** `STOP_NOT_PUBLISH_READY`
-**At UTC:** 2026-08-23T06:18:56Z
+**At UTC:** 2026-08-28T11:19:30Z
 
 ## 结论（诚实）
 
@@ -32,11 +32,11 @@
 
 ## 发现项
 
-- **P1** `md` — docs\en\00-START-HERE.md: Chinese in English doc
+- **P1** `ai_production` — M-30: missing or undersized V9 90s demo MP4
+- **P1** `ai_production` — M-30: missing 15-page IR visual Pitch Deck (PPTX+PDF)
+- **P1** `ai_production` — IR-PUBLICATION-QA-LATEST.json missing
 - **P1** `primary_market` — M-01 Etherscan: gap — team links + web form submit
 - **P1** `primary_market` — M-03 Website: gap — HTML publish
-- **P1** `primary_market` — M-30 Product BD: gap — 90s product demo MP4
-- **P1** `primary_market` — M-30 Product BD: gap — visual Pitch Deck PDF (not outline)
 - **P0** `publish` — team template still MISSING_OWNER_INPUT — blocks external send
 
 机读：`PUBLISH-AUDIT-LATEST.json` · 复检：`python scripts/dev/audit-ttg-primary-market-publish-gate.py`

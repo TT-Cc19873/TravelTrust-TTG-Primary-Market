@@ -3,18 +3,20 @@
 # Primary Market
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet:** Sale schedule pin `V9_SHORT_WINDOW_FIVE_ROUND` (Timelock execute 2026-08-26). Exchange windows are **not open to the public**. **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-Five Norm batches via NEW Batch Primary Market + PublicSaleVault.
+Five short Norm windows via NEW Batch Primary Market + PublicSaleVault (about **3.905%** of 25T):
 
-| Batch | Cap (TTG) | USDC / 1 TTG (6-dec raw) |
-|-------|-----------|--------------------------|
-| 1 | 1.25B | 1 |
-| 2 | 3.75B | 3 |
-| 3 | 18.75B | 5 |
-| 4 | 168.75B | 7 |
-| 5 | 2,025B | 9 |
+| Batch | Cap (TTG) | USDC / 1 TTG (6-dec raw) | UTC window |
+|-------|-----------|--------------------------|------------|
+| 1 | 1.25B | 1 | 2026-10-15 → 2026-10-22 (7d) |
+| 2 | 6.25B | 3 | 2026-11-12 → 2026-11-26 (14d) |
+| 3 | 31.25B | 5 | 2027-01-12 → 2027-02-02 (21d) |
+| 4 | 312.5B | 7 | 2027-03-09 → 2027-04-08 (30d) |
+| 5 | 625B | 9 | 2027-05-06 → 2027-06-20 (45d) |
 
-- `seedBatchesFromNorm` is SoloTimelock-gated (Phase1 **scheduled**, execute after ETA)
+- Price ladder unchanged: `1 / 3 / 5 / 7 / 9` µUSDC per whole TTG (about `$0.000001` → `$0.000009`)
+- Gaps between rounds skip Christmas and Lunar New Year. Windows are `[start, end)`.
+- `pinSaleScheduleFromNorm` already **executed** on the NEW 12h Timelock; all five batches remain **unarmed**. A published plan is **not** a live buy window.
 - **Sale USDC → NEW ProjectPool** · never Legacy P4Cap
 - Market: `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` · Vault: `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C`
