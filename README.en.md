@@ -2,6 +2,10 @@
 
 **English (this page)** | **[中文](README.zh-CN.md)**
 
+## TravelTrust Web3 发布说明
+
+Official www copy (**not** pack 01–19) → **[TravelTrust-Web3-发布说明.md](TravelTrust-Web3-发布说明.md)** · [English](TravelTrust-Web3-Release-Notes.md)
+
 Public materials for the **TTG governance token** on-chain primary market (Norm five batches · SoloTimelock-gated).
 
 | Field | Value |
@@ -16,7 +20,7 @@ Public materials for the **TTG governance token** on-chain primary market (Norm 
 
 ## Quick links
 
-- **Ops narrative (not pack 01–19):** [what this is](ops-narrative/README.md) · [English copy](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.en.md) · [Chinese copy](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.zh-CN.md)
+- **TravelTrust Web3 发布说明:** [Chinese](TravelTrust-Web3-发布说明.md) · [English](TravelTrust-Web3-Release-Notes.md) · [how to speak](ops-narrative/README.md)
 - [Start here (English)](docs/en/00-START-HERE.md)
 - [从这里开始（中文）](docs/zh-CN/00-START-HERE.md)
 - [Platform format compliance](PLATFORM-FORMAT-COMPLIANCE.md)

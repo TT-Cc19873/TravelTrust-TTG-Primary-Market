@@ -1,10 +1,11 @@
 # TravelTrust Web3 发布说明
 
-**用途：** 运营与渠道叙事 · **不是** 一级市场 01–19 准备材料。  
-**活页面：** [https://www.web3-ttg.com/traveltrust](https://www.web3-ttg.com/traveltrust)  
-**说明页：** [ops-narrative/README.md](README.md)
+**打开仓库就能在文件列表里看到这个文件名。** 这不是 `docs/` 里 01–19 一级市场准备材料。给运营和申请渠道的人用。怎么叙事：[ops-narrative/README.md](ops-narrative/README.md)
+
+**活页面：** [https://www.web3-ttg.com/traveltrust](https://www.web3-ttg.com/traveltrust)
 
 ---
+
 
 ## 页面标题（locale）
 

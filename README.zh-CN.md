@@ -2,6 +2,10 @@
 
 **[English](README.en.md)** | **中文（本页）**
 
+## TravelTrust Web3 发布说明
+
+官网文案副本（**不是** 01–19 材料包）→ **[TravelTrust-Web3-发布说明.md](TravelTrust-Web3-发布说明.md)**
+
 公开材料仓库，用于 **TTG 治理币** 链上一级市场（Norm 五批 · SoloTimelock 门闸）对外披露与检查。
 
 | 项 | 值 |
@@ -16,7 +20,7 @@
 
 ## 快速入口
 
-- **运营叙事（不是 01–19 材料）：** [这是什么 / 怎么说](ops-narrative/README.md) · [中文发布说明副本](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.zh-CN.md) · [English copy](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.en.md)
+- **TravelTrust Web3 发布说明：** [中文（根目录）](TravelTrust-Web3-发布说明.md) · [English](TravelTrust-Web3-Release-Notes.md) · [怎么叙事](ops-narrative/README.md)
 - [从这里开始（中文）](docs/zh-CN/00-START-HERE.md)
 - [Start here (English)](docs/en/00-START-HERE.md)
 - [平台格式合规对照](PLATFORM-FORMAT-COMPLIANCE.md)
