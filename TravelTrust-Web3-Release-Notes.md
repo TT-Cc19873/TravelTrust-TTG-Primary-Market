@@ -2,7 +2,7 @@
 
 Root file so GitHub’s file list shows this title. **Not** pack docs 01–19. How to speak: [ops-narrative/README.md](ops-narrative/README.md). Chinese: [TravelTrust-Web3-发布说明.md](TravelTrust-Web3-发布说明.md)
 
-**Dashboard (pills + table 1-01):** open [web3-release-dashboard.html](web3-release-dashboard.html) in a browser after clone/download. GitHub’s `.md` preview will not look like the Cursor canvas. CDN: `https://cdn.jsdelivr.net/gh/TT-Cc19873/TravelTrust-TTG-Primary-Market@main/web3-release-dashboard.html`.
+**Dashboard:** open [TravelTrust-Web3-发布说明.html](TravelTrust-Web3-发布说明.html) in a browser. GitHub’s `.md` preview will not look like the Cursor canvas.
 
 **Live page:** [https://www.web3-ttg.com/traveltrust](https://www.web3-ttg.com/traveltrust)
 

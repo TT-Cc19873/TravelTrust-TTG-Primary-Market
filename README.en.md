@@ -4,7 +4,7 @@
 
 ## TravelTrust Web3 发布说明
 
-Dashboard (open in a browser) → **[web3-release-dashboard.html](web3-release-dashboard.html)** · copy → **[TravelTrust-Web3-发布说明.md](TravelTrust-Web3-发布说明.md)** · [English](TravelTrust-Web3-Release-Notes.md)
+Dashboard (open in a browser) → **[TravelTrust-Web3-发布说明.html](TravelTrust-Web3-发布说明.html)** · copy → **[TravelTrust-Web3-发布说明.md](TravelTrust-Web3-发布说明.md)** · [English](TravelTrust-Web3-Release-Notes.md)
 
 Public materials for the **TTG governance token** on-chain primary market (Norm five batches · SoloTimelock-gated).
 
@@ -20,7 +20,7 @@ Public materials for the **TTG governance token** on-chain primary market (Norm 
 
 ## Quick links
 
-- **TravelTrust Web3 发布说明:** [HTML dashboard](web3-release-dashboard.html) · [Chinese](TravelTrust-Web3-发布说明.md) · [English](TravelTrust-Web3-Release-Notes.md) · [how to speak](ops-narrative/README.md)
+- **TravelTrust Web3 发布说明:** [HTML dashboard](TravelTrust-Web3-发布说明.html) · [Chinese](TravelTrust-Web3-发布说明.md) · [English](TravelTrust-Web3-Release-Notes.md) · [how to speak](ops-narrative/README.md)
 - [Start here (English)](docs/en/00-START-HERE.md)
 - [从这里开始（中文）](docs/zh-CN/00-START-HERE.md)
 - [Platform format compliance](PLATFORM-FORMAT-COMPLIANCE.md)
