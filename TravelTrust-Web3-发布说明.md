@@ -2,6 +2,8 @@
 
 **打开仓库就能在文件列表里看到这个文件名。** 这不是 `docs/` 里 01–19 一级市场准备材料。给运营和申请渠道的人用。怎么叙事：[ops-narrative/README.md](ops-narrative/README.md)
 
+**看板（按钮 + 表 1-01，和 Cursor 右侧那套同一种打开方式）：** 下载或 clone 后用浏览器打开 [TravelTrust-Web3-发布说明.html](TravelTrust-Web3-发布说明.html) （ASCII 同文件 [web3-release-dashboard.html](web3-release-dashboard.html)）。GitHub 点 `.md` 只会出普通表格；要网页观感请打开 `.html`，或用 jsDelivr：`https://cdn.jsdelivr.net/gh/TT-Cc19873/TravelTrust-TTG-Primary-Market@main/web3-release-dashboard.html`。
+
 **活页面：** [https://www.web3-ttg.com/traveltrust](https://www.web3-ttg.com/traveltrust)
 
 ---

@@ -6,6 +6,8 @@
 
 **给谁用：** 运营、渠道对接、去申请或介绍「链上一级市场」的同事 — 先统一**对外怎么说**，再去翻 01–19 技术表。
 
+**看板 HTML（clone / 下载后用浏览器打开，GitHub 上 `.md` 不会变成这套 UI）：** 仓库根目录 `TravelTrust-Web3-发布说明.html`
+
 **活页面：** [https://www.web3-ttg.com/traveltrust](https://www.web3-ttg.com/traveltrust) · 别名首页 [https://www.web3-ttg.com/](https://www.web3-ttg.com/)
 
 **`TT_PRODUCTION_GO`:** NO_GO · 兑换窗口 **尚未对公众开放**。

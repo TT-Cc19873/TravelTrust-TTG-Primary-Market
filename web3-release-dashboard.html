@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TravelTrust Web3 发布说明</title>
+  <style>
+    :root {
+      --bg: #0e1116;
+      --panel: #161b22;
+      --line: #2b3340;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --blue: #388bfd;
+      --blue-dim: #1f3a5f;
+      --green: #3fb950;
+      --orange: #d29922;
+      --red: #f85149;
+      --info: #58a6ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 14px/1.5 ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 24px; }
+    h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .lede { color: var(--muted); margin: 0 0 12px; }
+    .banner {
+      border: 1px solid #6e2a2a;
+      background: #2a1215;
+      color: #ffa198;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 12px 0 16px;
+    }
+    .banner strong { color: #ffdcd8; display: block; margin-bottom: 4px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 18px; }
+    .pill {
+      border: 0;
+      border-radius: 999px;
+      padding: 8px 14px;
+      cursor: pointer;
+      background: #21262d;
+      color: var(--text);
+      font: inherit;
+    }
+    .pill.on { background: var(--blue); color: #fff; }
+    details.editor {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+      background: var(--panel);
+    }
+    details.editor summary { cursor: pointer; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: 12px; overflow: hidden; }
+    caption { text-align: left; color: var(--muted); padding: 0 0 8px; font-size: 13px; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+    th { color: var(--muted); font-weight: 600; font-size: 12px; }
+    tr:last-child td { border-bottom: 0; }
+    .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; }
+    .t-success { background: var(--green); }
+    .t-warning { background: var(--orange); }
+    .t-danger { background: var(--red); }
+    .t-info { background: var(--info); }
+    .chip {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-size: 12px;
+      background: #1c3d2a;
+      color: #7ee787;
+    }
+    .chip.warn { background: #3d2e12; color: #e3b341; }
+    .chip.info { background: var(--blue-dim); color: #9ecbff; }
+    .open {
+      border: 0;
+      border-radius: 8px;
+      padding: 6px 12px;
+      background: #30363d;
+      color: var(--text);
+      cursor: pointer;
+      font: inherit;
+    }
+    .open.on { background: var(--blue); color: #fff; }
+    .panel {
+      margin-top: 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .panel h2 { margin: 0 0 8px; font-size: 18px; }
+    .k { color: var(--muted); font-size: 12px; margin-top: 10px; }
+    .navrow { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+    .ghost { background: #21262d; color: var(--text); border: 0; border-radius: 8px; padding: 8px 12px; cursor: pointer; font: inherit; }
+    .hint { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+    a { color: var(--blue); }
+    ul { margin: 8px 0; padding-left: 18px; }
+    .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; color: var(--muted); word-break: break-all; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>TravelTrust Web3 发布说明</h1>
+    <p class="lede">发布版读本。先认有哪些机器，再看还缺哪步，再看下一步按哪个。GO 尚未签发。</p>
+    <div class="banner">
+      <strong>现在还没做完</strong>
+      窗口尚未开放 · 五批仍 unarmed · Official 定时操作延迟是 12 小时 · TT_PRODUCTION_GO = NO_GO
+    </div>
+    <p class="hint">下面七章就是目录。先读第 1 章，再第 2 章，再第 3 章。</p>
+    <div class="pills" id="pills"></div>
+    <details class="editor">
+      <summary>给改这份发布说明的人</summary>
+      <p>编号只认表 1-01 的 01–15。打开一台看完，说「NN 过」再进下一台。GitHub 打开 .md 不会变成这套按钮；请打开本 HTML，或 Cursor 里打开同名 Canvas。</p>
+    </details>
+    <div id="app"></div>
+  </div>
+  <script>
+    const TABS = [
+      ["1", "这是什么"],
+      ["2", "还缺哪步"],
+      ["3", "下一步按哪个"],
+      ["4", "钱怎么走"],
+      ["5", "谁能改"],
+      ["6", "锁死的数"],
+      ["7", "出问题怎么停"],
+    ];
+    const MACHINES = [
+      { no: "01", aka: "治理代币", tone: "success", job: "这套 Web3 的币。用来投票、买公售、主理人质押计量。", face: "已经是这台", wire: "产品已在链上（本批不改针）", chip: "ok", addr: "0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9", now: "总量仍是满额 25 万亿，没烧过。销毁钥仍钉在代币上。", verify: "满额 ≠ 销毁钥已交给 12 小时门。本批不改这台。" },
+      { no: "02", aka: "投票机", tone: "success", job: "持币人走约 7 天投票的地方。通过后还要进 12 小时门。", face: "已经是这台", wire: "产品已在链上（本批不改针）", chip: "ok", addr: "0xD4b6162CB344af2C44689717edDFEe21e9082205", now: "已接 12 小时门。门槛地板读 0，普通提案仍要约 0.5% 活供应。", verify: "页面写成「门槛 0、随便提」是骗人。本批不改这台。" },
+      { no: "03", aka: "12 小时门", tone: "success", job: "最后一扇等待门。预约之后满 12 小时，谁都可以按 execute。", face: "已经是这台", wire: "门已在链上 · 钥匙还没交完", chip: "warn", addr: "0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A", now: "等待 12 小时。名册上要改的机器已在允许名单。工厂/结算钥匙还没交完。", verify: "钥匙没交完 ≠ 这扇门坏了。不要和 7 天投票混成一张倒计时。" },
+      { no: "04", aka: "现在的平台费分账机", tone: "success", job: "只分已经抽出的平台费美元，不是整笔订金。默认抽出 5%。", face: "已经是这台", wire: "规则已在链上 · 放款还没人喊", chip: "warn", addr: "0x2F3F4120d9d10b52f7FF762aC7E8f563454A9704", now: "规则已在链上。放款车间已认它。放款时还没人喊它。", verify: "绿 ≠ 完成单已按国分。没有分账事件是接头没接。" },
+      { no: "05", aka: "项目美元池", tone: "warning", job: "只收美元。公售卖掉 TTG 换来的 USDC 进这一口。", face: "已经是这台", wire: "池已在链上 · 公售收款已进本池口", chip: "ok", addr: "0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68", now: "池子在、钥匙是 12 小时门、现读上限 30%。五轮未开售。", verify: "针已切 ≠ 已经有人买过。不要当 TTG 库存去烧。" },
+      { no: "06", aka: "公售柜台", tone: "warning", job: "五轮短窗用 USDC 换 TTG。窗口没开买不了——现在这样是对的。", face: "还要换内部", wire: "收款已切 · 五轮锁死未开售", chip: "warn", addr: "0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b", now: "五批已放上、都没开售。收款口已切。这五轮仍锁死。", verify: "不要写成「升级才能改」。没开售时买失败是对的。" },
+      { no: "07", aka: "公售币库", tone: "success", job: "创世 50% 那一仓的 TTG 库。只出 TTG，不收美元。", face: "已经是这台", wire: "产品已在链上（本批不改针）", chip: "ok", addr: "0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C", now: "管理员钥匙已是 12 小时门。还没烧过。", verify: "柜台还在卖某一轮时不能烧。暂停人不能烧。" },
+      { no: "08", aka: "主理人席位", tone: "warning", job: "区域主理人用 TTG 占位子。30 万 USDC 打团队钱包，TTG 锁进本台。", face: "还要换内部", wire: "地址终态 · 实现未换", chip: "warn", addr: "0xa9839Ef49e1Cc6095b41764DCf81346250A469F8", now: "门牌已定。主网仍是旧 impl。", verify: "升级前不要对外说申请+退出已在主网闭环。" },
+      { no: "09", aka: "开单工厂", tone: "danger", job: "按官网请求印出一张托管单。订金不放在工厂里。", face: "改指向已排队", wire: "改针已排队 · 未 execute", chip: "warn", addr: "0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6", now: "还能开单，但新单的结算针还没指向放款车间。", verify: "针没切完，不得说完成单已经走新钱路。" },
+      { no: "10", aka: "放款车间", tone: "warning", job: "双方确认完成后放本金，抽出平台费交给分账机。", face: "改指向已排队", wire: "已认现在的分账机 · 等工厂交单", chip: "warn", addr: "0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372", now: "分账针已是现在的分账机。工厂针未切。", verify: "这台空转 ≠ 分账机没部署。" },
+      { no: "11", aka: "下一台分账（还没盖）", tone: "info", job: "还没盖的下一台平台费分账。会问席位：人退出，同一笔就停分。", face: "主网还没有", wire: "主网还没有地址", chip: "info", addr: "未部署", now: "主网还没有地址。", verify: "名册有行 ≠ 已部署。" },
+      { no: "12", aka: "完成单喊分账的接头", tone: "info", job: "车间外面喊分账，并带上行程目的地国家。", face: "主网还没有", wire: "主网还没接线", chip: "info", addr: "未部署", now: "本地有。主网地址仍是空的。", verify: "现在完成单扫不到按国分账，是缺接头。" },
+      { no: "13", aka: "美元稳定币", tone: "success", job: "项目里唯一认的美元。地址钉死，6 位小数。", face: "已经是这台", wire: "官方地址已钉（本批不换）", chip: "ok", addr: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", now: "已钉官方 Circle 这一份。", verify: "柜台、托管、项目池必须是同一地址。" },
+      { no: "14", aka: "暂停人 / 默认收款人", tone: "success", job: "紧急暂停公售、项目池默认收款、主理人 30 万准入收款。", face: "按键的人", wire: "现在握钥 · 交权后应离开名册", chip: "info", addr: "0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736", now: "公售 guardian 已是本地址。", verify: "不是治理根。不能自己解除暂停。" },
+      { no: "15", aka: "预约人", tone: "info", job: "12 小时门的预约钥匙。满 12 小时后谁都能按执行。", face: "按键的人", wire: "现在负责预约 · 不是国库", chip: "info", addr: "0xe1e732EfBf9B010a9204054467256d3d93f3CdD4", now: "12 小时门的 admin 已是本地址。", verify: "不是点一下钱就动。生产 GO 是另一扇闸。" },
+    ];
+    let tab = 0;
+    let openNo = null;
+    function chipClass(c) { return c === "warn" ? "chip warn" : c === "info" ? "chip info" : "chip"; }
+    function renderPills() {
+      document.getElementById("pills").innerHTML = TABS.map((t, i) =>
+        `<button class="pill${i===tab?" on":""}" data-tab="${i}">${t[0]} ${t[1]}</button>`
+      ).join("");
+      document.querySelectorAll(".pill").forEach((b) => b.onclick = () => { tab = +b.dataset.tab; openNo = null; draw(); });
+    }
+    function table1() {
+      const rows = MACHINES.map((m) => {
+        const on = openNo === m.no;
+        return `<tr>
+          <td><span class="dot t-${m.tone}"></span>${m.no}</td>
+          <td>${on ? "→ " : ""}${m.no} ${m.aka}</td>
+          <td>${m.job}</td>
+          <td>${m.face}</td>
+          <td><span class="${chipClass(m.chip)}">${m.wire.split("·")[0].trim()}</span></td>
+          <td><button class="open${on?" on":""}" data-open="${m.no}">${on?"本台":"打开"}</button></td>
+        </tr>`;
+      }).join("");
+      const detail = openNo ? MACHINES.find((x) => x.no === openNo) : null;
+      return `
+        <p class="hint">编号只认表 1-01 的 01–15。打开一台看完，说「NN 过」再进下一台。</p>
+        ${detail ? `<div class="navrow">
+          <button class="ghost" id="back">返回目录</button>
+        </div>` : ""}
+        <table>
+          <caption>表 1-01 · 十五台</caption>
+          <thead><tr><th>#</th><th>这台叫啥</th><th>干什么</th><th>新不新</th><th>链上好了没</th><th>打开</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+        <table style="margin-top:16px">
+          <caption>表 1-02 · 总规矩</caption>
+          <thead><tr><th>#</th><th>项</th><th>里面有什么</th></tr></thead>
+          <tbody><tr><td>01</td><td>总规矩</td><td>平台费默认 5%（可改） / 45/55 可改 / 7 天投票 ≠ 12 小时门 / 十国 / 30 万 / 五轮 / NO-MINT</td></tr></tbody>
+        </table>
+        ${detail ? `<div class="panel">
+          <h2>${detail.no} ${detail.aka}</h2>
+          <div class="mono">${detail.addr}</div>
+          <div class="k">干什么</div><div>${detail.job}</div>
+          <div class="k">现在</div><div>${detail.now}</div>
+          <div class="k">核对</div><div>${detail.verify}</div>
+        </div>` : ""}`;
+    }
+    function page(n) {
+      const blocks = [
+        table1,
+        () => `<div class="panel"><h2>2 还缺哪步</h2>
+          <ul>
+            <li>开单工厂结算针改到放款车间：已排队，未 execute</li>
+            <li>工厂 / 放款钥匙交给 12 小时门：已排队</li>
+            <li>主理人席位换内部：地址终态，实现未换</li>
+            <li>下一台分账、完成单接头：主网还没有地址</li>
+            <li>Official www 说明书按钮、Production GO：另闸，本页不签发</li>
+          </ul>
+          <p class="hint">缺步 ≠ 十五台名册少了一台。旧车间不进表 1-01。</p></div>`,
+        () => `<div class="panel"><h2>3 下一步按哪个</h2>
+          <ul>
+            <li>已排队：工厂改针 → 再交钥。顺序不能反。</li>
+            <li>不要为了对齐墙上时钟去取消已预约操作。</li>
+            <li>五轮短窗：产品锁死，日常不许改日历。窗口没开买失败是对的。</li>
+          </ul></div>`,
+        () => `<div class="panel"><h2>4 钱怎么走</h2>
+          <p>买 TTG：USDC → 公售柜台 → 美元进项目池；TTG 从币库领出。</p>
+          <p>订行程：USDC 进托管单（工厂盖单）→ 完成后再从放款车间放本金、抽平台费。</p>
+          <p>两笔不是同一笔。现在新单结算针还没切完，不得说新钱路已通。</p></div>`,
+        () => `<div class="panel"><h2>5 谁能改</h2>
+          <ul>
+            <li>持币人：约 7 天投票机 → 再进 12 小时门</li>
+            <li>预约人：允许名单上的操作可直排 12 小时门（不必先投 7 天）</li>
+            <li>暂停人：只能暂停公售，不能自己解暂停、不能烧币</li>
+          </ul></div>`,
+        () => `<div class="panel"><h2>6 锁死的数</h2>
+          <ul>
+            <li>总量 25T，创世后不能再印</li>
+            <li>五轮 pin V9_SHORT_WINDOW_FIVE_ROUND，合计约 3.905%</li>
+            <li>第 1 轮 1 USDC = 1,000,000 TTG；最低 1 USDC</li>
+            <li>12 小时门 delay = 43200 秒；投票约 7 天，不是 12 小时</li>
+            <li>平台费默认 5%；有席位默认 45/55</li>
+          </ul></div>`,
+        () => `<div class="panel"><h2>7 出问题怎么停</h2>
+          <p>公售紧急停：暂停人 pause。解暂停不在这只钥匙上。</p>
+          <p>不要把 48 小时旧 Timelock 说成现在的活 Official 延迟。活延迟是 12 小时门。</p>
+          <p>不要用改文档冒充针已经切完。</p></div>`,
+      ];
+      return blocks[n]();
+    }
+    function draw() {
+      renderPills();
+      document.getElementById("app").innerHTML = page(tab);
+      document.querySelectorAll("[data-open]").forEach((b) => {
+        b.onclick = () => { openNo = b.dataset.open; draw(); };
+      });
+      const back = document.getElementById("back");
+      if (back) back.onclick = () => { openNo = null; draw(); };
+    }
+    draw();
+  </script>
+</body>
+</html>
