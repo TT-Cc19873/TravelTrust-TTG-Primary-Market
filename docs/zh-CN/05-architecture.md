@@ -19,7 +19,8 @@ TravelTrust Web3 Mainnet Edition 采用 **NEW / KEEP / LEGACY** 三分：
        ├─ 有主理人 → 45% 登记钱包 / 55% NEW ProjectPool
        └─ 无主理人 → 100% NEW ProjectPool
 公售 USDC → NEW ProjectPool（永远不是 Legacy P4Cap）
-Governor → SoloTimelock 48h → 外围运维 / Governance Burn
+Governor → SoloTimelock 12h (Official PM/Vault) → 外围运维 / Governance Burn
+  （Phase1 OLD 48h SoloTimelock = LEGACY）
 ```
 
 Token 货币规则 **NO-MINT 不可增发**。外围可经治理升级，**不得**借升级绕过 NO-MINT。

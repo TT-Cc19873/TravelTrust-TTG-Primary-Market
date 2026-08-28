@@ -9,6 +9,7 @@
 - Fee：5% 起点 · 国家 payout 经 Timelock · Mainnet 禁止 FeeIngress 公开入口
 - Pool：90d ≤ 30% 运营上限
 - Stake：live supply × bps · Merchant/Guide 默认 DISABLED
-- SoloTimelock：48h · admin = Marketing Norm · **≠ Safe** 作 V9 Official admin
+- Official SoloTimelock：**12h**（PM/Vault 定时操作 · `0xF61880fe…`）· admin = Marketing Norm · **≠ Safe** 作 V9 Official admin
+- Phase1 OLD SoloTimelock：**48h** `0x99e43F…` = **LEGACY**（PATH_A 之后）
 - 漏洞披露：见 [SECURITY.md](../../SECURITY.md)
 - 审计候选证据 ≠ `TT_PRODUCTION_GO`

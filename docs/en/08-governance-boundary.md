@@ -20,8 +20,8 @@
 
 ## Governance
 
-- Governor → SoloTimelock → scheduled operations
-- Phase1: OLD 48h TL migrating authority to NEW 12h TL (PATH_A)
+- Official PM/Vault delay: **12h** NEW SoloTimelock. PATH_A set PM.timelock and Vault.admin to NEW 12h.
+- Phase1 OLD 48h SoloTimelock: **LEGACY** (still 48h on-chain; not living Official delay)
 
 ## Not claimed
 
@@ -29,4 +29,4 @@
 - Production GO
 - Exchange listings
 
-SSOT: docs/github-official/en/CountryFeeRouter.md · docs/spec/83 regional governance whitepaper (zh)
+SSOT: docs/github-official/en/CountryFeeRouter.md · spec 83 country-fee allocation whitepaper (ZH filename in repo)

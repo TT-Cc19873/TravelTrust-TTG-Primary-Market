@@ -21,7 +21,8 @@
 ## 治理
 
 - Governor → SoloTimelock → 定时操作
-- Phase1：OLD 48h Timelock 向 NEW 12h Timelock 迁移权限（PATH_A）
+- Official 一级市场 / Vault 定时操作延迟：**12h**（NEW SoloTimelock `0xF61880fe…`）。PATH_A 已把 PM.timelock 与 Vault.admin 切到 NEW 12h。
+- Phase1 OLD 48h SoloTimelock `0x99e43F…`：**LEGACY**（链上仍是 48h，不是活 Official 延迟）
 
 ## 未宣称
 

@@ -11,7 +11,7 @@
 - TTG：NO-MINT；无公开持有人销毁；治理销毁经 Timelock
 - 费用路由：Timelock 写入出款；基准 5%
 - 资金池：90 天运营上限 ≤ 30% bps
-- SoloTimelock 延迟：OLD 48h → 目标 NEW 12h
+- SoloTimelock 延迟：Official PM/Vault = **NEW 12h**；OLD 48h = **LEGACY**（PATH_A 之后）
 
 ## 审计状态
 

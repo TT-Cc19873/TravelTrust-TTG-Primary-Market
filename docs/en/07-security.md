@@ -9,6 +9,7 @@
 - Fee: 5% baseline · Timelock-written country payouts · no FeeIngress as Mainnet public entry
 - Pool: 90d ≤ 30% ops cap
 - Stake: live supply × bps · Merchant/Guide DISABLED by default
-- SoloTimelock: 48h · admin = Marketing Norm · **≠ Safe** as V9 Official admin
+- Official SoloTimelock: **12h** (PM/Vault timed ops · `0xF61880fe…`) · admin = Marketing Norm · **≠ Safe** as V9 Official admin
+- Phase1 OLD SoloTimelock: **48h** `0x99e43F…` = **LEGACY** (after PATH_A)
 - Report vulnerabilities: see [SECURITY.md](../../SECURITY.md)
 - Audit-candidate evidence ≠ `TT_PRODUCTION_GO`

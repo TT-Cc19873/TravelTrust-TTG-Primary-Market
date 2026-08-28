@@ -11,7 +11,7 @@
 - TTG: NO-MINT; no public holder burn; governance burn via Timelock
 - Fee router: Timelock-written payouts; 5% baseline
 - Pool: 90d ops cap ≤ 30% bps
-- SoloTimelock delays: OLD 48h → NEW 12h target
+- SoloTimelock delays: Official PM/Vault = **NEW 12h**; OLD 48h = **LEGACY** after PATH_A
 
 ## Audit status
 

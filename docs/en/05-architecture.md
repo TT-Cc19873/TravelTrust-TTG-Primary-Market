@@ -19,7 +19,8 @@ Order(+ISO country) → KEEP Escrow / Settlement
        ├─ Active steward → 45% payout wallet / 55% NEW ProjectPool
        └─ none → 100% NEW ProjectPool
 Primary sale USDC → NEW ProjectPool (never Legacy P4Cap)
-Governor → SoloTimelock 48h → periphery ops / Governance Burn
+Governor → SoloTimelock 12h (Official PM/Vault) → periphery ops / Governance Burn
+  (Phase1 OLD 48h SoloTimelock = LEGACY)
 ```
 
 Token monetary rules are **immutable NO-MINT**. Periphery may upgrade via governance **without** minting beyond genesis.
