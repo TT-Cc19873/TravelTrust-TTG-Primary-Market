@@ -1,6 +1,6 @@
 {
   "stamp": "TTG_PRIMARY_MARKET_CONTENT_SECURITY_LEGAL_AUDIT",
-  "at_utc": "2026-08-28T12:04:41Z",
+  "at_utc": "2026-08-28T12:16:17Z",
   "verdict": "PASS_CONTENT_CLEAN",
   "v9_candidate_sha": "b19b85810c22677d243a82d06ebec8ebcb4d4b47",
   "finding_count": 0,

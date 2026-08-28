@@ -12,10 +12,11 @@ Public materials for the **TTG governance token** on-chain primary market (Norm 
 | **Mainnet** | `DEPLOYED_PENDING_CUTOVER` |
 | **Production GO** | **NO_GO** |
 
-> General information only. Not an offer. Do not claim the sale is open before Timelock cutover Reality.
+> General information only. Not an offer. Do not claim anyone can buy TTG before a window opens.
 
 ## Quick links
 
+- **Ops narrative (not pack 01–19):** [what this is](ops-narrative/README.md) · [English copy](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.en.md) · [Chinese copy](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.zh-CN.md)
 - [Start here (English)](docs/en/00-START-HERE.md)
 - [从这里开始（中文）](docs/zh-CN/00-START-HERE.md)
 - [Platform format compliance](PLATFORM-FORMAT-COMPLIANCE.md)

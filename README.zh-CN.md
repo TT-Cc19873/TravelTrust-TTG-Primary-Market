@@ -12,10 +12,11 @@
 | **主网** | `DEPLOYED_PENDING_CUTOVER` |
 | **Production GO** | **NO_GO** |
 
-> 一般信息仅供参考，不构成证券或虚拟资产要约，非投资建议。公售未开放前禁止宣称「已可购买」。
+> 一般信息仅供参考，不构成证券或虚拟资产要约，非投资建议。窗口未开放前禁止宣称现在可以买入。
 
 ## 快速入口
 
+- **运营叙事（不是 01–19 材料）：** [这是什么 / 怎么说](ops-narrative/README.md) · [中文发布说明副本](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.zh-CN.md) · [English copy](ops-narrative/TRAVELTRUST-WEB3-RELEASE-NOTES.en.md)
 - [从这里开始（中文）](docs/zh-CN/00-START-HERE.md)
 - [Start here (English)](docs/en/00-START-HERE.md)
 - [平台格式合规对照](PLATFORM-FORMAT-COMPLIANCE.md)

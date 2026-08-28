@@ -11,3 +11,5 @@
 - Non-proxy token body; monetary invariants hard-coded
 - Phase1 address: `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` · status `DEPLOYED_PENDING_CUTOVER`
 - TTG is **not** default travel-order settlement (USDC is)
+- Primary market: Official release five short windows (Genesis calibration → Final public round) · **not open** · [Primary Market](Primary-Market.md)
+- Official PM/Vault Timelock delay: **12h** (Phase1 48h = LEGACY) · [Governance](Governance.md)

@@ -14,6 +14,7 @@
 1. `evidence/GO_ttg_v9_external_materials_closure/packages/`
 2. `docs/github-official/zh/` 或 `docs/github-official/en/`
 3. 一级市场矩阵 / 治理币披露字段
+4. 官网发布说明文案（`frontend/locales` `traveltrust_unlock_*` · `docs/github-official/RELEASE-NOTES.md`）→ 卫星 `ops-narrative/`
 
 ### 命令（在主仓库根目录）
 
@@ -49,6 +50,7 @@ Re-sync this satellite repo after updating in the monorepo:
 1. External materials packages under `evidence/GO_ttg_v9_external_materials_closure/packages/`
 2. `docs/github-official/{zh,en}/`
 3. Primary market matrix / governance disclosure fields
+4. Official www Web3 release copy (`frontend/locales` `traveltrust_unlock_*` · `docs/github-official/RELEASE-NOTES.md`) → satellite `ops-narrative/`
 
 ### Commands (monorepo root)
 
