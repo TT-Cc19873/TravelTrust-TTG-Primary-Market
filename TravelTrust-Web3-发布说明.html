@@ -137,7 +137,28 @@
       { no: "05", aka: "项目美元池", tone: "warning", job: "只收美元。公售卖掉 TTG 换来的 USDC 进这一口。", face: "已经是这台", wire: "池已在链上 · 公售收款已进本池口", chip: "ok", addr: "0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68", now: "池子在、钥匙是 12 小时门、现读上限 30%。五轮未开售。", verify: "针已切 ≠ 已经有人买过。不要当 TTG 库存去烧。" },
       { no: "06", aka: "公售柜台", tone: "warning", job: "五轮短窗用 USDC 换 TTG。窗口没开买不了——现在这样是对的。", face: "还要换内部", wire: "收款已切 · 五轮锁死未开售", chip: "warn", addr: "0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b", now: "五批已放上、都没开售。收款口已切。这五轮仍锁死。", verify: "不要写成「升级才能改」。没开售时买失败是对的。" },
       { no: "07", aka: "公售币库", tone: "success", job: "创世 50% 那一仓的 TTG 库。只出 TTG，不收美元。", face: "已经是这台", wire: "产品已在链上（本批不改针）", chip: "ok", addr: "0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C", now: "管理员钥匙已是 12 小时门。还没烧过。", verify: "柜台还在卖某一轮时不能烧。暂停人不能烧。" },
-      { no: "08", aka: "主理人席位", tone: "warning", job: "区域主理人用 TTG 占位子。30 万 USDC 打团队钱包，TTG 锁进本台。", face: "还要换内部", wire: "地址终态 · 实现未换", chip: "warn", addr: "0xa9839Ef49e1Cc6095b41764DCf81346250A469F8", now: "门牌已定。主网仍是旧 impl。", verify: "升级前不要对外说申请+退出已在主网闭环。" },
+      { no: "08", aka: "主理人席位", tone: "warning", job: "区域主理人用 TTG 占位子。30 万 USDC 打团队钱包，TTG 锁进本台。", face: "还要换内部", wire: "地址终态 · 实现未换", chip: "warn", addr: "0xa9839Ef49e1Cc6095b41764DCf81346250A469F8", now: "门牌 0xa983 已定。本地 SeatLock v2 已测。主网仍是旧 impl：三参数质押、无任期闸、退出不停 45%。", verify: "不要把 30 万写成打进席位。不要写成 KPI 退出。不要开第 16 台。升级前不要对外说申请+退出已在主网闭环。", book: [
+        ["人话", "08 主理人席位"],
+        ["新不新", "还要换内部"],
+        ["链上好了没", "地址终态 · 实现未换"],
+        ["改状态走哪扇门", "upgradeTo 只走 12h"],
+        ["下一笔", "12h schedule upgradeToAndCall（SeatLock）"],
+        ["合约名", "RoleStake"],
+        ["地址", "0xa9839Ef49e1Cc6095b41764DCf81346250A469F8"],
+        ["是什么", "区域主理人用 TTG 占位子的机器。两笔钱去两个地址：30 万 USDC 转给团队钱包；TTG 锁进本台。以后 45% 打到质押时填的收款钱包。"],
+        ["不是什么", "30 万不是打进本台，也不是进项目池。TTG 不是转到团队钱包。收款钱包不是锁币地址。商家/向导不走这里。"],
+        ["你会碰到", "申请闭环：官网交 30 万到 14 → Admin 批申请 → 12h 把门牌上的申请号标绿 → 工作台把 TTG 锁进 10 并带收款钱包。退出闭环：满 24 个月 → 工作台辞任通知 + 当天 requestRelease（停 45%，须 08）→ 90 天后一次 claim TTG。无 KPI。主网 impl 仍旧，闭环在升级后才全真。"],
+        ["规矩", "① 30 万 USDC → 0xF34804…（14）。② TTG → 0xa983…（10）。③ 质押四参数：国、额、申请号、收款钱包。④ 一国一个。⑤ 满 24×30 天才能 requestRelease；当天清席位；90 天一次取回 TTG。换收款钱包=再审+12h。"],
+        ["30 万准入费给谁", "300,000 USDC 转到团队钱包 0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736。这只地址外号「暂停人」（表 14）：也能紧急暂停公售、默认收项目池工资。不是打进席位，不是进项目池，不是按暂停按钮。原则上不退。"],
+        ["TTG 质押到哪个地址", "锁进本台席位合约 0xa9839Ef49e1Cc6095b41764DCf81346250A469F8。币在合约里占位子，不是转到 0xF34804，也不是转到下面那张收款钱包。退出走完才能取回。"],
+        ["以后 45% 打哪（第三只地址）", "质押时必须填写主理人自己的收款钱包（普通钱包或 Safe 都行）。抽出的平台费里默认 45% 打那里。这张地址不是锁 TTG 的地方。换这张要再审+12 小时门。"],
+        ["顺序", "先转 30 万 USDC 到 0xF34804… → 批准申请号 → 再把 TTG 锁进 0xa983… 并带上收款钱包。成功才有身份。十国各一个。链上现在还没有「没交 30 万就不能押」的闸。"],
+        ["申请闭环（对接官网）", "① 身份 Hub 申请区域主理人并转 30 万到 14。② Admin 用户卡批准（链下）并抄 keccak(UUID)。③ 预约人 12h：setApplicationApproved。④ 工作台授权 TTG → stakeAsRegionSteward。未第③步会 ApplicationNotApproved。"],
+        ["退出闭环（对接官网）", "工作台：满任期 → 提交 90 天通知（立刻允许链上 requestRelease）→ 当天停 45%（08）→ 90 天后 claim 一次 + 链下 finalize。无 KPI。"],
+        ["升级走哪扇门", "禁止 Norm 当场 upgradeTo。先在主网部 SeatLock 实现，预约人把本台加入 12h 允许名单，再 schedule upgradeToAndCall。满 12 小时才能 execute。"],
+        ["链上现在", "门牌 0xa983 已定。本地 SeatLock v2 已测。主网仍是旧 impl：三参数质押、无任期闸、退出不停 45%。"],
+        ["你要核对", "不要把 30 万写成打进席位。不要写成 KPI 退出。不要开第 16 台。升级前不要对外说申请+退出已在主网闭环。"],
+      ] },
       { no: "09", aka: "开单工厂", tone: "danger", job: "按官网请求印出一张托管单。订金不放在工厂里。", face: "改指向已排队", wire: "改针已排队 · 未 execute", chip: "warn", addr: "0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6", now: "还能开单，但新单的结算针还没指向放款车间。", verify: "针没切完，不得说完成单已经走新钱路。" },
       { no: "10", aka: "放款车间", tone: "warning", job: "双方确认完成后放本金，抽出平台费交给分账机。", face: "改指向已排队", wire: "已认现在的分账机 · 等工厂交单", chip: "warn", addr: "0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372", now: "分账针已是现在的分账机。工厂针未切。", verify: "这台空转 ≠ 分账机没部署。" },
       { no: "11", aka: "下一台分账（还没盖）", tone: "info", job: "还没盖的下一台平台费分账。会问席位：人退出，同一笔就停分。", face: "主网还没有", wire: "主网还没有地址", chip: "info", addr: "未部署", now: "主网还没有地址。", verify: "名册有行 ≠ 已部署。" },
@@ -148,7 +169,33 @@
     ];
     let tab = 0;
     let openNo = null;
+    function esc(s) {
+      return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
     function chipClass(c) { return c === "warn" ? "chip warn" : c === "info" ? "chip info" : "chip"; }
+    function specPanel(d) {
+      const book = d.book || [
+        ["人话", d.no + " " + d.aka],
+        ["新不新", d.face],
+        ["链上好了没", d.wire],
+        ["地址", d.addr],
+        ["是什么", d.job],
+        ["链上现在", d.now],
+        ["你要核对", d.verify],
+      ];
+      const body = book.map((r, i) =>
+        `<tr><td>${String(i + 1).padStart(2, "0")}</td><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`
+      ).join("");
+      return `<div class="panel">
+        <h2>${esc(d.no)} ${esc(d.aka)}</h2>
+        <p class="hint">表 1-03 · ${esc(d.no)} ${esc(d.aka)}${d.book && d.book.length === 20 ? "（20 栏，与现行 Canvas 主理人说明书对齐）" : ""}。</p>
+        <table>
+          <caption>表 1-03 · ${esc(d.no)} ${esc(d.aka)}</caption>
+          <thead><tr><th>#</th><th>栏</th><th>内容</th></tr></thead>
+          <tbody>${body}</tbody>
+        </table>
+      </div>`;
+    }
     function renderPills() {
       document.getElementById("pills").innerHTML = TABS.map((t, i) =>
         `<button class="pill${i===tab?" on":""}" data-tab="${i}">${t[0]} ${t[1]}</button>`
@@ -183,13 +230,7 @@
           <thead><tr><th>#</th><th>项</th><th>里面有什么</th></tr></thead>
           <tbody><tr><td>01</td><td>总规矩</td><td>平台费默认 5%（可改） / 45/55 可改 / 7 天投票 ≠ 12 小时门 / 十国 / 30 万 / 五轮 / NO-MINT</td></tr></tbody>
         </table>
-        ${detail ? `<div class="panel">
-          <h2>${detail.no} ${detail.aka}</h2>
-          <div class="mono">${detail.addr}</div>
-          <div class="k">干什么</div><div>${detail.job}</div>
-          <div class="k">现在</div><div>${detail.now}</div>
-          <div class="k">核对</div><div>${detail.verify}</div>
-        </div>` : ""}`;
+        ${detail ? specPanel(detail) : ""}`;
     }
     function page(n) {
       const blocks = [
