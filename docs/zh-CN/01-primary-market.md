@@ -18,5 +18,5 @@ NEW Batch Primary Market + PublicSaleVault 执行 Norm 五轮短窗口（官网�
 - 价格阶梯不变：`1 / 3 / 5 / 7 / 9` µUSDC per whole TTG（约 `$0.000001` → `$0.000009`）
 - 轮次之间留空档（避开圣诞与春节）。窗口是 `[start, end)`。
 - `pinSaleScheduleFromNorm` 已经过 NEW 12h Timelock **execute**；五批仍 **unarmed**。公布计划 **不等于** 现在可以买入。
-- **公售 USDC → NEW ProjectPool** · 永远不是 Legacy P4Cap
-- Market：`0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` · Vault：`0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C`
+- **公售 USDC → 表 1-01 项目美元池** `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68` · 永远不是 Legacy P4Cap / 旧池 `0x7B21…`
+- 柜台：`0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` · 币库：`0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C`

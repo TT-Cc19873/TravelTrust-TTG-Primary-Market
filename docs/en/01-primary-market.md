@@ -18,5 +18,5 @@ Five short Norm windows via NEW Batch Primary Market + PublicSaleVault (Official
 - Price ladder unchanged: `1 / 3 / 5 / 7 / 9` µUSDC per whole TTG (about `$0.000001` → `$0.000009`)
 - Gaps between rounds skip Christmas and Lunar New Year. Windows are `[start, end)`.
 - `pinSaleScheduleFromNorm` already **executed** on the NEW 12h Timelock; all five batches remain **unarmed**. A published plan is **not** a live buy window.
-- **Sale USDC → NEW ProjectPool** · never Legacy P4Cap
+- **Sale USDC → table 1-01 ProjectPoolV2** `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68` · never Legacy P4Cap / old pool `0x7B21…`
 - Market: `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` · Vault: `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C`
