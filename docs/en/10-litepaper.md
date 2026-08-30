@@ -8,10 +8,10 @@
 
 Protocol summary aligned with Official **TravelTrust Web3 release notes**:
 
-- TTG genesis 25T · NO-MINT
-- Order settlement: **USDC**
-- Platform fee 5% · 45/55 split when a steward is active
-- Primary market: five named short windows (Genesis calibration → Final public round)
+- TTG genesis 25T · NO-MINT — table 1-01 **#01 governance token**
+- Order settlement: **#09 USDC**, not #01
+- Platform fee 5% split by **#04 FeeRouterV2**; 45/55 when a steward is active
+- Primary market: **#06 PrimaryMarket** five windows; dollars to **#05 ProjectPoolV2**; TTG from **#07 Vault**; gate **#03 12h Timelock**
 - Status: schedule pinned · **windows not open** · `DEPLOYED_PENDING_CUTOVER`
 
 Aligned with Official www **TravelTrust Web3 release notes** (five short windows · **not open**):

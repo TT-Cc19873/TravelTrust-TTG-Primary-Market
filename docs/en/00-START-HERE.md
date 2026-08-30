@@ -13,7 +13,7 @@
 ## Three frozen facts
 
 1. **TTG is a governance token** (25T genesis · NO-MINT), **not** default travel settlement (orders use **USDC**).
-2. **True primary market** = on-chain **Norm five batches** + SoloTimelock gate ([01-primary-market](01-primary-market.md)).
+2. **True primary market** = table 1-01 **#06 PrimaryMarket** (five short windows, USDC for TTG) + **#07 Vault** + **#05 ProjectPoolV2**, gated by **#03 12h Timelock** ([01-primary-market](01-primary-market.md)).
 3. **No centralized KYC** operated by the project; participants must comply with their own jurisdictions.
 
 How to speak (ops / channels): start at the **[HTML dashboard](../../TravelTrust-Web3-%E5%8F%91%E5%B8%83%E8%AF%B4%E6%98%8E.html)** (table 1-01). That file is **not** the 01–19 submission pack.

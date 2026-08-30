@@ -11,7 +11,7 @@
 
 | Bucket | Share | Amount | Destination |
 |--------|-------|--------|-------------|
-| Public Sale Vault | 50% | 12.5T | NEW Vault |
+| Public Sale Vault | 50% | 12.5T | table 1-01 · **#07 Vault** |
 | DAO / SoloTimelock | 35% | 8.75T | NEW SoloTimelock |
 | Team | 3% | 0.75T | `0x010365…` |
 | Marketing | 5% | 1.25T | `0xe1e732…` |

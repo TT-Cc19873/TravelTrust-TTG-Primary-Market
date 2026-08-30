@@ -13,10 +13,13 @@
 
 ## Country pool / FeeRouterV2 (table 1-01 · 04)
 
+- **#04** does: splits extracted platform fee (default 5%)
 - Platform fee 5% (500 bps) — governance only to change
-- Active steward: 45% of platform fee to steward wallet; 55% to **ProjectPoolV2** `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68`
-- No steward: 100% to ProjectPoolV2
-- Public sale USDC → ProjectPoolV2 (never Legacy P4Cap / old pool `0x7B21…`)
+- Active steward: 45% of platform fee to steward wallet; 55% to **#05 ProjectPoolV2** `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68`
+- No steward: 100% to #05
+- Public sale USDC → **#06 counter → #05 pool** (never Legacy P4Cap / old pool `0x7B21…`)
+- **#10 RoleStake**: steward TTG seat; 300k to **#14**, TTG in this machine (not #08)
+- **#08** is the next fee router (pointer not cut), not living #04
 
 ## Governance
 

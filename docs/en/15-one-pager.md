@@ -18,6 +18,8 @@ TravelTrust is a trust-based travel commerce protocol combining marketplace, on-
 
 ## Primary market (Official Web3 release notes · doc 15)
 
+Table 1-01: **#06 PrimaryMarket** (five short windows) · dollars to **#05 ProjectPoolV2** · TTG from **#07 Vault** · gate **#03 12h Timelock**. Windows not open.
+
 Aligned with Official www **TravelTrust Web3 release notes** (five short windows · **not open**):
 
 | Round | Name | Cap (TTG) | ~ USDC / 1 TTG | UTC window |
