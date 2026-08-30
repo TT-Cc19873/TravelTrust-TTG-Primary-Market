@@ -9,17 +9,17 @@ TravelTrust Web3 Mainnet Edition 采用 **NEW / KEEP / LEGACY** 三分：
 
 | 类别 | 含义 |
 |------|------|
-| **NEW** | V9 Official Token、SoloTimelock、Governor、Vault、Market、ProjectPool、CountryFeeRouter、RoleStake |
-| **KEEP** | EscrowFactoryV2Wired + SettlementRouter + USDC 资金面（用户本金） |
-| **LEGACY** | Safe / 旧 Timelock / P4Cap / V8 / Remint / R2_FINAL — **不入** ACTIVE 合约登记 |
+| **NEW** | 表 1-01 活机：治理币、投票机、12 小时门、FeeRouterV2、ProjectPoolV2、柜台、币库、席位 |
+| **KEEP** | 开单工厂 + 放款车间 + USDC（用户本金） |
+| **LEGACY** | Safe / 旧 48h Timelock / P4Cap / Phase1 旧池·旧分账·旧 Governor·旧席位 / V8 / Remint — **不入** 表 1-01 |
 
 ```text
-订单(+ISO 国家) → KEEP Escrow / Settlement
-  → 平台费 5% → NEW CountryFeeRouter
-       ├─ 有主理人 → 45% 登记钱包 / 55% NEW ProjectPool
-       └─ 无主理人 → 100% NEW ProjectPool
-公售 USDC → NEW ProjectPool（永远不是 Legacy P4Cap）
-Governor → SoloTimelock 12h (Official PM/Vault) → 外围运维 / Governance Burn
+订单(+ISO 国家) → KEEP 工厂 / 放款车间
+  → 平台费 5% → FeeRouterV2（表 1-01 · 04）
+       ├─ 有主理人 → 45% 席位收款钱包 / 55% ProjectPoolV2
+       └─ 无主理人 → 100% ProjectPoolV2
+公售 USDC → ProjectPoolV2 `0x65714…`（永远不是 Legacy P4Cap / 旧池 `0x7B21…`）
+投票机 `0xD4b616…` → 12 小时门 `0xF618…` → 外围运维 / Governance Burn
   （Phase1 OLD 48h SoloTimelock = LEGACY）
 ```
 

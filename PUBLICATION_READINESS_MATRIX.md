@@ -1,8 +1,8 @@
 # Publication Readiness Matrix · 发布就绪矩阵
 
 **Stamp:** `V9_PRIMARY_MARKET_PUBLICATION_READINESS_MATRIX`
-**Verdict:** `V9_PRIMARY_MARKET_MANUAL_PUBLICATION_CLASSIFICATION_PASS_STOP`
-**At UTC:** 2026-08-30T10:09:02Z
+**Verdict:** `STOP_AI_FIXABLE_REMAINING`
+**At UTC:** 2026-08-30T10:15:37Z
 
 ## 合并结论（PASS_CONTENT_CLEAN + STOP_NOT_PUBLISH_READY）
 
@@ -10,7 +10,7 @@
 |------|---------|------|
 | Content / security / legal | `PASS_CONTENT_CLEAN` | 措辞与 V9 pins 一致 |
 | Publish gate | `STOP_NOT_PUBLISH_READY` | 整包外发仍 STOP（团队/媒体缺口） |
-| AI 可修项 | **0** | 须归零才 PASS_STOP |
+| AI 可修项 | **1** | 须归零才 PASS_STOP |
 | Owner 阻塞 | **5** | 不得 AI 代填 |
 | Reality 阻塞 | **1** | Mainnet cutover 后替换 |
 

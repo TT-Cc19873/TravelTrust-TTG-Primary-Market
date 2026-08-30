@@ -32,4 +32,4 @@
 
 ## Primary market (Official Web3 release notes)
 
-Five short windows (Genesis calibration / Community early bird / Builder / Public / Final public) · about **3.905%** of 25T · **not open**. Official delay **12h**. Full table: [Primary Market](Primary-Market.md) · [release notes](../RELEASE-NOTES.md).
+Five short windows (Genesis calibration / Community early bird / Builder / Public / Final public) · about **3.905%** of 25T · **not open**. Official delay **12h**. Full table: [Primary Market](01-primary-market.md) · [release notes](../../TravelTrust-Web3-Release-Notes.md).

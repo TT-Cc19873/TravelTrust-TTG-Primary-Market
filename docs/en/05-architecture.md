@@ -9,17 +9,17 @@ TravelTrust Web3 Mainnet Edition uses a **NEW / KEEP / LEGACY** split:
 
 | Class | Meaning |
 |-------|---------|
-| **NEW** | V9 Official token, SoloTimelock, Governor, Vault, Market, ProjectPool, CountryFeeRouter, RoleStake |
-| **KEEP** | EscrowFactoryV2Wired + SettlementRouter + USDC Money Path (user principal) |
-| **LEGACY** | Safe / old Timelock / P4Cap / V8 / Remint / R2_FINAL — **not** ACTIVE Contract Registry |
+| **NEW** | Table 1-01 living: token, Governor, 12h Timelock, FeeRouterV2, ProjectPoolV2, market, vault, RoleStake |
+| **KEEP** | Escrow factory + SettlementRouter + USDC (user principal) |
+| **LEGACY** | Safe / old 48h Timelock / P4Cap / Phase1 old pool·router·Governor·stake / V8 / Remint — **not** table 1-01 |
 
 ```text
-Order(+ISO country) → KEEP Escrow / Settlement
-  → fee 5% → NEW CountryFeeRouter
-       ├─ Active steward → 45% payout wallet / 55% NEW ProjectPool
-       └─ none → 100% NEW ProjectPool
-Primary sale USDC → NEW ProjectPool (never Legacy P4Cap)
-Governor → SoloTimelock 12h (Official PM/Vault) → periphery ops / Governance Burn
+Order(+ISO country) → KEEP factory / SettlementRouter
+  → fee 5% → FeeRouterV2 (table 1-01 #04)
+       ├─ Active steward → 45% payout wallet / 55% ProjectPoolV2
+       └─ none → 100% ProjectPoolV2
+Primary sale USDC → ProjectPoolV2 `0x65714…` (never Legacy P4Cap / old pool `0x7B21…`)
+Governor `0xD4b616…` → 12h Timelock `0xF618…` → periphery ops / Governance Burn
   (Phase1 OLD 48h SoloTimelock = LEGACY)
 ```
 

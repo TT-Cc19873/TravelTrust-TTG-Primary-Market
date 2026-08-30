@@ -1,13 +1,31 @@
 # TravelTrust Web3 发布说明
 
-**打开仓库就能在文件列表里看到这个文件名。** 这不是 `docs/` 里 01–19 一级市场准备材料。给运营和申请渠道的人用。怎么叙事：[ops-narrative/README.md](ops-narrative/README.md)
+**打开仓库就能在文件列表里看到这个文件名。** 这不是 `docs/` 里 01–19 一级市场准备材料。给运营和申请渠道的人用。怎么叙事见本页「怎么叙事」表；看板：[TravelTrust-Web3-发布说明.html](TravelTrust-Web3-发布说明.html)。
 
 **看板（新 · 按钮 + 表 1-01）：** 用浏览器打开 [TravelTrust-Web3-发布说明.html](TravelTrust-Web3-发布说明.html)。GitHub 点 `.md` 只会出普通表格。网页预览：https://cdn.jsdelivr.net/gh/TT-Cc19873/TravelTrust-TTG-Primary-Market@main/TravelTrust-Web3-%E5%8F%91%E5%B8%83%E8%AF%B4%E6%98%8E.html
 
 **活页面：** [https://www.web3-ttg.com/traveltrust](https://www.web3-ttg.com/traveltrust)
 
----
+## 怎么叙事
 
+| 要说 | 不要说 |
+|------|--------|
+| TTG 是治理币，总量 25T，创世后不可增发 | 「现在就能买」「公售已经开始」 |
+| 官网公布了**五轮短窗口**名称与时间；链上时间表已 pin，批次仍 unarmed | 把 01–19 材料包说成「已经递交 CoinList / 已上所」 |
+| 订单订金走 **USDC 托管**，和兑换 TTG **不是同一笔** | 「买 TTG 就是付行程订金」 |
+| Official 一级市场/Vault 定时操作延迟是 **12 小时**；旧 48 小时 Timelock 是历史 LEGACY | 把 48 小时说成现在官网活延迟 |
+| 申请渠道时：先用本页 + 看板 HTML 口径，技术地址再引用 `docs/` 01–19 | 把发布说明当成 One Pager / Pitch Deck 附件编号 |
+
+---
+---|--------|
+| TTG 是治理币，总量 25T，创世后不可增发 | 「现在就能买」「公售已经开始」 |
+| 官网公布了**五轮短窗口**名称与时间；链上时间表已 pin，批次仍 unarmed | 把 01–19 材料包说成「已经递交 CoinList / 已上所」 |
+| 订单订金走 **USDC 托管**，和兑换 TTG **不是同一笔** | 「买 TTG 就是付行程订金」 |
+| Official 一级市场/Vault 定时操作延迟是 **12 小时**；旧 48 小时 Timelock 是历史 LEGACY | 把 48 小时说成现在官网活延迟 |
+| 申请渠道时：先用本页 + 看板 HTML 口径，技术地址再引用 `docs/` 01–19 | 把发布说明当成 One Pager / Pitch Deck 附件编号 |
+
+
+---
 
 ## 页面标题（locale）
 

@@ -1,6 +1,6 @@
 # TravelTrust Web3 release notes
 
-Root file so GitHub’s file list shows this title. **Not** pack docs 01–19. How to speak: [ops-narrative/README.md](ops-narrative/README.md). Chinese: [TravelTrust-Web3-发布说明.md](TravelTrust-Web3-发布说明.md)
+Root file so GitHub’s file list shows this title. **Not** pack docs 01–19. How to speak: this file + the HTML dashboard. Chinese: [TravelTrust-Web3-发布说明.md](TravelTrust-Web3-发布说明.md)
 
 **Dashboard:** open [TravelTrust-Web3-发布说明.html](TravelTrust-Web3-发布说明.html) in a browser. GitHub’s `.md` preview will not look like the Cursor canvas.
 

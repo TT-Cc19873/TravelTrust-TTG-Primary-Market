@@ -11,12 +11,12 @@
 - 治理与预算程序资产（创世 25T · 不可增发 NO-MINT）
 - **不是**旅行订单默认结算币（订单默认 **USDC**）
 
-## 国家资金池 / FeeRouter
+## 国家资金池 / FeeRouterV2（表 1-01 · 04）
 
 - 平台费 5%（500 bps）— 仅治理可改
-- 有活跃主理人：平台费的 45% 至主理人钱包；55% 至 NEW ProjectPool
-- 无主理人：100% 至 NEW ProjectPool
-- 公售 USDC → NEW ProjectPool（**永不**进入 Legacy P4Cap）
+- 有活跃主理人：平台费的 45% 至主理人钱包；55% 至 **ProjectPoolV2** `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68`
+- 无主理人：100% 至 ProjectPoolV2
+- 公售 USDC → ProjectPoolV2（**永不**进入 Legacy P4Cap / 旧池 `0x7B21…`）
 
 ## 治理
 

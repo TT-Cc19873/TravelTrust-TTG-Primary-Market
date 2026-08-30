@@ -1,20 +1,48 @@
 {
-  "status": "READY_NOT_PUBLISHED",
+  "status": "DEPLOYED_PENDING_CUTOVER",
   "chain_id": 1,
-  "candidate_sha": "b19b85810c22677d243a82d06ebec8ebcb4d4b47",
+  "source": "table_1_01",
+  "tt_production_go": "NO_GO",
+  "table_1_01": {
+    "01_token": "0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9",
+    "02_governor": "0xD4b6162CB344af2C44689717edDFEe21e9082205",
+    "03_timelock_12h": "0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A",
+    "04_fee_router_v2": "0x2F3F4120d9d10b52f7FF762aC7E8f563454A9704",
+    "05_project_pool_v2": "0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68",
+    "06_primary_market": "0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b",
+    "07_vault": "0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C",
+    "08_role_stake": "0xa9839Ef49e1Cc6095b41764DCf81346250A469F8",
+    "09_escrow_factory": "0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6",
+    "10_settlement_router": "0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372",
+    "11_next_fee_router": "0xa20a2987c688b8CAB21E1f54B6Ad103926B4082b",
+    "12_completion_adapter": "0x94e2be00877c4519805408e10e16e33625863c74",
+    "13_usdc": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "14_pause": "0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736",
+    "15_scheduler": "0xe1e732EfBf9B010a9204054467256d3d93f3CdD4"
+  },
   "contracts": {
     "ttg": "0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9",
-    "keep_vault": "0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C",
-    "keep_pm": "0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b",
-    "old_timelock": "0x99e43FaBA8dC773888223f70e1dfCd18bea37D7f",
+    "governor": "0xD4b6162CB344af2C44689717edDFEe21e9082205",
     "new_timelock": "0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A",
     "new_fee_router": "0x2F3F4120d9d10b52f7FF762aC7E8f563454A9704",
     "new_pool": "0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68",
-    "new_stake": "0xa9839Ef49e1Cc6095b41764DCf81346250A469F8"
+    "keep_pm": "0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b",
+    "keep_vault": "0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C",
+    "new_stake": "0xa9839Ef49e1Cc6095b41764DCf81346250A469F8",
+    "keep_ef": "0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6",
+    "keep_sr": "0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372",
+    "usdc": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "guardian": "0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736",
+    "scheduler": "0xe1e732EfBf9B010a9204054467256d3d93f3CdD4"
   },
   "legacy_do_not_use": {
     "safe": "0x96491aa894658ff7946506318c49F3c76b8f40e7",
     "keep_timelock": "0x50F0B26167EC73e327D97c54C81F1c1B9eFB22f7",
-    "p4cap": "0xfB906ae34521E0BC884AB1a8D0dcf986aBD59BbF"
+    "p4cap": "0xfB906ae34521E0BC884AB1a8D0dcf986aBD59BbF",
+    "old_timelock_48h": "0x99e43FaBA8dC773888223f70e1dfCd18bea37D7f",
+    "old_governor": "0xA0DfC4C5C544488AfEfE696AfB8e5823911e5A9c",
+    "old_fee_router": "0x5afD2e0C8b9fa4eecfde4bf582d3B282D28F4970",
+    "old_pool": "0x7B21b421981A3B61cc08c8E22D4fd690E457Df37",
+    "old_stake": "0xf6A1Fb4435E463117a666818611F49D03F91E7A7"
   }
 }

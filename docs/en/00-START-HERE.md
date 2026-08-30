@@ -16,7 +16,7 @@
 2. **True primary market** = on-chain **Norm five batches** + SoloTimelock gate ([01-primary-market](01-primary-market.md)).
 3. **No centralized KYC** operated by the project; participants must comply with their own jurisdictions.
 
-How to speak (ops / channels): start at **[ops-narrative](../../ops-narrative/README.md)** (Official www release-notes copy). That folder is **not** the 01–19 submission pack.
+How to speak (ops / channels): start at **[TravelTrust-Web3-发布说明.html](../../TravelTrust-Web3-发布说明.html)** (table 1-01 dashboard). That file is **not** the 01–19 submission pack.
 
 **Disclaimer:** General information only; **not an offer** to sell or solicit securities or virtual assets.
 
