@@ -1,7 +1,7 @@
 {
   "stamp": "V9_PRIMARY_MARKET_PUBLICATION_READINESS_MATRIX",
-  "at_utc": "2026-08-30T10:08:27Z",
-  "verdict": "STOP_AI_FIXABLE_REMAINING",
+  "at_utc": "2026-08-30T10:09:02Z",
+  "verdict": "V9_PRIMARY_MARKET_MANUAL_PUBLICATION_CLASSIFICATION_PASS_STOP",
   "candidate_sha": "b19b85810c22677d243a82d06ebec8ebcb4d4b47",
   "tt_production_go": "NO_GO",
   "content_audit": {
@@ -10,21 +10,14 @@
   },
   "publish_audit": {
     "verdict": "STOP_NOT_PUBLISH_READY",
-    "finding_count": 7,
+    "finding_count": 6,
     "publishable_external_send": false
   },
-  "ai_fixable_count": 1,
+  "ai_fixable_count": 0,
   "owner_blocker_count": 5,
   "reality_blocker_count": 1,
   "ai_fixes_applied": [],
-  "ai_fixable_findings": [
-    {
-      "severity": "P1",
-      "area": "md",
-      "issue": "docs\\en\\09-contract-addresses.md: Chinese in English doc",
-      "fixable_by": "ai"
-    }
-  ],
+  "ai_fixable_findings": [],
   "owner_blockers": [
     {
       "severity": "P1",
