@@ -1,6 +1,6 @@
 {
   "stamp": "TTG_PRIMARY_MARKET_PUBLISH_AUDIT",
-  "at_utc": "2026-08-30T10:16:16Z",
+  "at_utc": "2026-08-30T10:29:59Z",
   "verdict": "STOP_NOT_PUBLISH_READY",
   "publishable_external_send": false,
   "ai_production_gaps": 3,
